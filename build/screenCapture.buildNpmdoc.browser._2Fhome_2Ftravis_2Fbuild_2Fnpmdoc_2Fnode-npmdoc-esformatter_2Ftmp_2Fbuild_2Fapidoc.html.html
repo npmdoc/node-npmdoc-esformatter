@@ -1,0 +1,1581 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/millermedeiros/esformatter#readme">esformatter (v0.10.0)</a>
+</h1>
+<h4>ECMAScript code beautifier/formatter</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.esformatter">module esformatter</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.format">
+            function <span class="apidocSignatureSpan">esformatter.</span>format
+            <span class="apidocSignatureSpan">(str, opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.rc">
+            function <span class="apidocSignatureSpan">esformatter.</span>rc
+            <span class="apidocSignatureSpan">(filePath, customOptions)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.register">
+            function <span class="apidocSignatureSpan">esformatter.</span>register
+            <span class="apidocSignatureSpan">(plugin)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.transform">
+            function <span class="apidocSignatureSpan">esformatter.</span>transform
+            <span class="apidocSignatureSpan">(ast, opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.unregister">
+            function <span class="apidocSignatureSpan">esformatter.</span>unregister
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.unregisterAll">
+            function <span class="apidocSignatureSpan">esformatter.</span>unregisterAll
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">esformatter.</span>diff</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">esformatter.</span>helpers</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">esformatter.</span>hooks</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">esformatter.</span>indent</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">esformatter.</span>limit</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">esformatter.</span>options</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">esformatter.</span>plugins</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.esformatter.diff">module esformatter.diff</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.diff.chars">
+            function <span class="apidocSignatureSpan">esformatter.diff.</span>chars
+            <span class="apidocSignatureSpan">(str, opts, fileName)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.diff.unified">
+            function <span class="apidocSignatureSpan">esformatter.diff.</span>unified
+            <span class="apidocSignatureSpan">(str, opts, fileName)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.diff.unifiedNoColor">
+            function <span class="apidocSignatureSpan">esformatter.diff.</span>unifiedNoColor
+            <span class="apidocSignatureSpan">(str, opts, fileName)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.esformatter.format">module esformatter.format</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.format.format">
+            function <span class="apidocSignatureSpan">esformatter.</span>format
+            <span class="apidocSignatureSpan">(str, opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.format.parseFn">
+            function <span class="apidocSignatureSpan">esformatter.format.</span>parseFn
+            <span class="apidocSignatureSpan">(str, opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">esformatter.format.</span>parseOptions</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.esformatter.helpers">module esformatter.helpers</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.helpers.shouldIndentChild">
+            function <span class="apidocSignatureSpan">esformatter.helpers.</span>shouldIndentChild
+            <span class="apidocSignatureSpan">(parent, child, opts)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.esformatter.indent">module esformatter.indent</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.indent.setOptions">
+            function <span class="apidocSignatureSpan">esformatter.indent.</span>setOptions
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.indent.transform">
+            function <span class="apidocSignatureSpan">esformatter.indent.</span>transform
+            <span class="apidocSignatureSpan">(ast)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.esformatter.limit">module esformatter.limit</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.limit.after">
+            function <span class="apidocSignatureSpan">esformatter.limit.</span>after
+            <span class="apidocSignatureSpan">(token, typeOrValue)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.limit.around">
+            function <span class="apidocSignatureSpan">esformatter.limit.</span>around
+            <span class="apidocSignatureSpan">(token, typeOrValue)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.limit.before">
+            function <span class="apidocSignatureSpan">esformatter.limit.</span>before
+            <span class="apidocSignatureSpan">(token, typeOrValue)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.esformatter.options">module esformatter.options</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.options.get">
+            function <span class="apidocSignatureSpan">esformatter.options.</span>get
+            <span class="apidocSignatureSpan">(prop)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.options.getRc">
+            function <span class="apidocSignatureSpan">esformatter.options.</span>getRc
+            <span class="apidocSignatureSpan">(filePath, customOptions)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.options.loadAndParseConfig">
+            function <span class="apidocSignatureSpan">esformatter.options.</span>loadAndParseConfig
+            <span class="apidocSignatureSpan">(file)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.options.set">
+            function <span class="apidocSignatureSpan">esformatter.options.</span>set
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">esformatter.options.</span>presets</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.esformatter.plugins">module esformatter.plugins</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.loadAndRegister">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>loadAndRegister
+            <span class="apidocSignatureSpan">(idsOrModules)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.nodeAfter">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>nodeAfter
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.nodeBefore">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>nodeBefore
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.register">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>register
+            <span class="apidocSignatureSpan">(plugin)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.setOptions">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>setOptions
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.stringAfter">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>stringAfter
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.stringBefore">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>stringBefore
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.tokenAfter">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>tokenAfter
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.tokenBefore">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>tokenBefore
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.transform">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>transform
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.transformAfter">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>transformAfter
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.transformBefore">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>transformBefore
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.unregister">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>unregister
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.esformatter.plugins.unregisterAll">
+            function <span class="apidocSignatureSpan">esformatter.plugins.</span>unregisterAll
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.esformatter" id="apidoc.module.esformatter">module esformatter</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.format" id="apidoc.element.esformatter.format">
+        function <span class="apidocSignatureSpan">esformatter.</span>format
+        <span class="apidocSignatureSpan">(str, opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function format(str, opts) {
+  // we need to load and register the plugins as soon as possible otherwise
+  // `stringBefore` won't be called and default settings won't be used
+  _options.set(opts);
+
+  // remove shebang before pipe because piped commands might not know how
+  // to handle it
+  var prefix = getShebang(str);
+  if (prefix &amp;&amp; !_options.get('esformatter.allowShebang')) {
+    throw new Error(
+      'shebang not allowed! Set esformatter.allowShebang to true if you ' +
+      'want to support it.'
+    );
+  }
+  str = str.replace(prefix, '');
+
+  var pipeCommands = _options.get('pipe');
+
+  if (pipeCommands) {
+    str = pipe(pipeCommands.before, str).toString();
+  }
+
+  str = doFormat(str, opts);
+
+  if (pipeCommands) {
+    str = pipe(pipeCommands.after, str).toString();
+  }
+
+  // we only restore bang after pipe because piped commands might not know how
+  // to handle it
+  return prefix + str;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  },
+  whiteSpace : {
+    // ...
+  }
+};
+
+// return a string with the formatted code
+var formattedCode = esformatter.<span class="apidocCodeKeywordSpan">format</span>(codeStr, options);
+```
+
+See the [doc/api.md](./doc/api.md) file for a list of all the public methods
+and detailed documentation about each one.
+
+See [doc/config.md](./doc/config.md) for more info about the configuration
+options.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.rc" id="apidoc.element.esformatter.rc">
+        function <span class="apidocSignatureSpan">esformatter.</span>rc
+        <span class="apidocSignatureSpan">(filePath, customOptions)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getRc(filePath, customOptions) {
+  if (isObject(filePath)) {
+    customOptions = filePath;
+    filePath = null;
+  }
+
+  var cwd = process.cwd();
+
+  customOptions = processExtends(cwd, customOptions);
+
+  // if user sets the "preset" we don't load any other config file
+  // we assume the "preset" overrides any user settings
+  if (isTopLevel(customOptions)) {
+    return customOptions;
+  }
+
+  // we search for config file starting from source directory or from cwd if
+  // path is not provided
+  var basedir = filePath ? path.dirname(filePath) : cwd;
+  var rc = findAndMergeConfigs(basedir);
+  if (isEmpty(rc) &amp;&amp; basedir !== cwd) {
+    rc = findAndMergeConfigs(cwd);
+  }
+  var tmpConfig = !isEmpty(rc) ? rc : getGlobalConfig();
+  return mergeOptions(tmpConfig, customOptions);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.register" id="apidoc.element.esformatter.register">
+        function <span class="apidocSignatureSpan">esformatter.</span>register
+        <span class="apidocSignatureSpan">(plugin)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function register(plugin) {
+  if (_plugins.indexOf(plugin) === -1) {
+    _plugins.push(plugin);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.transform" id="apidoc.element.esformatter.transform">
+        function <span class="apidocSignatureSpan">esformatter.</span>transform
+        <span class="apidocSignatureSpan">(ast, opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function transform(ast, opts) {
+  if (opts !== exports.BYPASS_OPTIONS) {
+    _options.set(opts);
+  }
+  // we store this here to avoid calling `_options.get` for each token
+  _shouldRemoveTrailingWs = Boolean(_options.get('whiteSpace.removeTrailing'));
+
+  plugins.transformBefore(ast);
+
+  _tk.eachInBetween(ast.startToken, ast.endToken, preprocessToken);
+  rocambole.moonwalk(ast, transformNode);
+  _tk.eachInBetween(ast.startToken, ast.endToken, postprocessToken);
+  _br.limitBeforeEndOfFile(ast);
+
+  // indent should come after all other transformations since it depends on
+  // line breaks caused by "parent" nodes, otherwise it will cause conflicts.
+  // it should also happen after the postprocessToken since it adds line breaks
+  // before/after comments and that changes the indent logic
+  indent.transform(ast);
+
+  // plugin transformation comes after the indentation since we assume user
+  // knows what he is doing (will increase flexibility and allow plugin to
+  // override the indentation logic)
+  // we have an alias "transform" to match v0.3 API, but favor `transformAfter`
+  // moving forward. (we might deprecate "transform" in the future)
+  plugins.transform(ast);
+  plugins.transformAfter(ast);
+
+  return ast;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+_tk.eachInBetween(ast.startToken, ast.endToken, postprocessToken);
+_br.limitBeforeEndOfFile(ast);
+
+// indent should come after all other transformations since it depends on
+// line breaks caused by "parent" nodes, otherwise it will cause conflicts.
+// it should also happen after the postprocessToken since it adds line breaks
+// before/after comments and that changes the indent logic
+indent.<span class="apidocCodeKeywordSpan">transform</span>(ast);
+
+// plugin transformation comes after the indentation since we assume user
+// knows what he is doing (will increase flexibility and allow plugin to
+// override the indentation logic)
+// we have an alias "transform" to match v0.3 API, but favor `transformAfter`
+// moving forward. (we might deprecate "transform" in the future)
+plugins.transform(ast);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.unregister" id="apidoc.element.esformatter.unregister">
+        function <span class="apidocSignatureSpan">esformatter.</span>unregister
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">unregister = function () {
+    var rest = slice(arguments);
+
+    // Don't waste time checking for placeholders if there aren't any.
+    var args = has_ ? take(as.length, function(i) {
+        var a = as[i];
+        return a === _ ? rest.shift() : a;
+    }) : as;
+
+    return f.apply(this, rest.length ? args.concat(rest) : args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.unregisterAll" id="apidoc.element.esformatter.unregisterAll">
+        function <span class="apidocSignatureSpan">esformatter.</span>unregisterAll
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function unregisterAll() {
+  _plugins = [];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.esformatter.diff" id="apidoc.module.esformatter.diff">module esformatter.diff</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.diff.chars" id="apidoc.element.esformatter.diff.chars">
+        function <span class="apidocSignatureSpan">esformatter.diff.</span>chars
+        <span class="apidocSignatureSpan">(str, opts, fileName)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function chars(str, opts, fileName) {
+  var result = disparity.chars(str, format(str, opts));
+  if (!result) {
+    return '';
+  }
+  // we add a line break at the end because it looks better
+  return getHeader(fileName) + result + '\n';
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.diff.unified" id="apidoc.element.esformatter.diff.unified">
+        function <span class="apidocSignatureSpan">esformatter.diff.</span>unified
+        <span class="apidocSignatureSpan">(str, opts, fileName)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function unified(str, opts, fileName) {
+  return disparity.unified(str, format(str, opts), {
+    paths: [fileName]
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.diff.unifiedNoColor" id="apidoc.element.esformatter.diff.unifiedNoColor">
+        function <span class="apidocSignatureSpan">esformatter.diff.</span>unifiedNoColor
+        <span class="apidocSignatureSpan">(str, opts, fileName)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function unifiedNoColor(str, opts, fileName) {
+  return disparity.unifiedNoColor(str, format(str, opts), {
+    paths: [fileName]
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.esformatter.format" id="apidoc.module.esformatter.format">module esformatter.format</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.format.format" id="apidoc.element.esformatter.format.format">
+        function <span class="apidocSignatureSpan">esformatter.</span>format
+        <span class="apidocSignatureSpan">(str, opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function format(str, opts) {
+  // we need to load and register the plugins as soon as possible otherwise
+  // `stringBefore` won't be called and default settings won't be used
+  _options.set(opts);
+
+  // remove shebang before pipe because piped commands might not know how
+  // to handle it
+  var prefix = getShebang(str);
+  if (prefix &amp;&amp; !_options.get('esformatter.allowShebang')) {
+    throw new Error(
+      'shebang not allowed! Set esformatter.allowShebang to true if you ' +
+      'want to support it.'
+    );
+  }
+  str = str.replace(prefix, '');
+
+  var pipeCommands = _options.get('pipe');
+
+  if (pipeCommands) {
+    str = pipe(pipeCommands.before, str).toString();
+  }
+
+  str = doFormat(str, opts);
+
+  if (pipeCommands) {
+    str = pipe(pipeCommands.after, str).toString();
+  }
+
+  // we only restore bang after pipe because piped commands might not know how
+  // to handle it
+  return prefix + str;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  },
+  whiteSpace : {
+    // ...
+  }
+};
+
+// return a string with the formatted code
+var formattedCode = esformatter.<span class="apidocCodeKeywordSpan">format</span>(codeStr, options);
+```
+
+See the [doc/api.md](./doc/api.md) file for a list of all the public methods
+and detailed documentation about each one.
+
+See [doc/config.md](./doc/config.md) for more info about the configuration
+options.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.format.parseFn" id="apidoc.element.esformatter.format.parseFn">
+        function <span class="apidocSignatureSpan">esformatter.format.</span>parseFn
+        <span class="apidocSignatureSpan">(str, opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">parseFn = function (str, opts) {
+  return parser.parse(str, opts);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.esformatter.helpers" id="apidoc.module.esformatter.helpers">module esformatter.helpers</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.helpers.shouldIndentChild" id="apidoc.element.esformatter.helpers.shouldIndentChild">
+        function <span class="apidocSignatureSpan">esformatter.helpers.</span>shouldIndentChild
+        <span class="apidocSignatureSpan">(parent, child, opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function shouldIndentChild(parent, child, opts) {
+  // this will avoid indenting objects/arrays/functions twice if they
+  // are on the right of a BinaryExpression, LogicalExpression or
+  // UnaryExpression
+  if (!child || !opts[parent.type + '.' + child.type]) {
+    return false;
+  }
+
+  return !child.right || !opts[child.right.type];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.esformatter.indent" id="apidoc.module.esformatter.indent">module esformatter.indent</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.indent.setOptions" id="apidoc.element.esformatter.indent.setOptions">
+        function <span class="apidocSignatureSpan">esformatter.indent.</span>setOptions
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function setOptions(opts) {
+  _opts = opts;
+  indent.setOptions(opts);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+// ---
+
+
+exports.setOptions = setOptions;
+function setOptions(opts) {
+_opts = opts;
+indent.<span class="apidocCodeKeywordSpan">setOptions</span>(opts);
+}
+
+
+// transform AST in place
+exports.transform = transform;
+function transform(ast) {
+rocambole.walk(ast, transformNode);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.indent.transform" id="apidoc.element.esformatter.indent.transform">
+        function <span class="apidocSignatureSpan">esformatter.indent.</span>transform
+        <span class="apidocSignatureSpan">(ast)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function transform(ast) {
+  rocambole.walk(ast, transformNode);
+  indent.sanitize(ast);
+  // on v0.6.0 we named the property starting with uppercase "A" by mistake, so
+  // now we need to support both styles to keep consistency :(
+  if (_opts.alignComments) {
+    indent.alignComments(ast);
+  }
+  return ast;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+_tk.eachInBetween(ast.startToken, ast.endToken, postprocessToken);
+_br.limitBeforeEndOfFile(ast);
+
+// indent should come after all other transformations since it depends on
+// line breaks caused by "parent" nodes, otherwise it will cause conflicts.
+// it should also happen after the postprocessToken since it adds line breaks
+// before/after comments and that changes the indent logic
+indent.<span class="apidocCodeKeywordSpan">transform</span>(ast);
+
+// plugin transformation comes after the indentation since we assume user
+// knows what he is doing (will increase flexibility and allow plugin to
+// override the indentation logic)
+// we have an alias "transform" to match v0.3 API, but favor `transformAfter`
+// moving forward. (we might deprecate "transform" in the future)
+plugins.transform(ast);
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.esformatter.limit" id="apidoc.module.esformatter.limit">module esformatter.limit</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.limit.after" id="apidoc.element.esformatter.limit.after">
+        function <span class="apidocSignatureSpan">esformatter.limit.</span>after
+        <span class="apidocSignatureSpan">(token, typeOrValue)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function limitAfter(token, typeOrValue) {
+  _br.limitAfter(token, typeOrValue);
+  _ws.limitAfter(token, typeOrValue);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.limit.around" id="apidoc.element.esformatter.limit.around">
+        function <span class="apidocSignatureSpan">esformatter.limit.</span>around
+        <span class="apidocSignatureSpan">(token, typeOrValue)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function limitAround(token, typeOrValue) {
+  _br.limit(token, typeOrValue);
+  _ws.limit(token, typeOrValue);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.limit.before" id="apidoc.element.esformatter.limit.before">
+        function <span class="apidocSignatureSpan">esformatter.limit.</span>before
+        <span class="apidocSignatureSpan">(token, typeOrValue)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function limitBefore(token, typeOrValue) {
+  _br.limitBefore(token, typeOrValue);
+  _ws.limitBefore(token, typeOrValue);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.esformatter.options" id="apidoc.module.esformatter.options">module esformatter.options</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.options.get" id="apidoc.element.esformatter.options.get">
+        function <span class="apidocSignatureSpan">esformatter.options.</span>get
+        <span class="apidocSignatureSpan">(prop)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">get = function (prop) {
+  return prop ? get(_curOpts, prop) : _curOpts;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// ---
+
+function transform(ast, opts) {
+if (opts !== exports.BYPASS_OPTIONS) {
+  _options.set(opts);
+}
+// we store this here to avoid calling `_options.get` for each token
+_shouldRemoveTrailingWs = Boolean(_options.<span class="apidocCodeKeywordSpan">get</span>('whiteSpace.removeTrailing'));
+
+plugins.transformBefore(ast);
+
+_tk.eachInBetween(ast.startToken, ast.endToken, preprocessToken);
+rocambole.moonwalk(ast, transformNode);
+_tk.eachInBetween(ast.startToken, ast.endToken, postprocessToken);
+_br.limitBeforeEndOfFile(ast);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.options.getRc" id="apidoc.element.esformatter.options.getRc">
+        function <span class="apidocSignatureSpan">esformatter.options.</span>getRc
+        <span class="apidocSignatureSpan">(filePath, customOptions)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getRc(filePath, customOptions) {
+  if (isObject(filePath)) {
+    customOptions = filePath;
+    filePath = null;
+  }
+
+  var cwd = process.cwd();
+
+  customOptions = processExtends(cwd, customOptions);
+
+  // if user sets the "preset" we don't load any other config file
+  // we assume the "preset" overrides any user settings
+  if (isTopLevel(customOptions)) {
+    return customOptions;
+  }
+
+  // we search for config file starting from source directory or from cwd if
+  // path is not provided
+  var basedir = filePath ? path.dirname(filePath) : cwd;
+  var rc = findAndMergeConfigs(basedir);
+  if (isEmpty(rc) &amp;&amp; basedir !== cwd) {
+    rc = findAndMergeConfigs(cwd);
+  }
+  var tmpConfig = !isEmpty(rc) ? rc : getGlobalConfig();
+  return mergeOptions(tmpConfig, customOptions);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.options.loadAndParseConfig" id="apidoc.element.esformatter.options.loadAndParseConfig">
+        function <span class="apidocSignatureSpan">esformatter.options.</span>loadAndParseConfig
+        <span class="apidocSignatureSpan">(file)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function loadAndParseConfig(file) {
+  try {
+    var config = JSON.parse(
+      stripJsonComments(fs.readFileSync(file).toString())
+    );
+
+    return processExtends(path.dirname(file), config);
+  } catch (e) {
+    // include file name and let user know error was caused by config file
+    // parsing. this is redundant for ENOENT errors but very helpful for
+    // JSON.parse
+    throw new Error(
+      "Can't parse configuration file '" + file + "'. Exception: " + e.message
+    );
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.options.set" id="apidoc.element.esformatter.options.set">
+        function <span class="apidocSignatureSpan">esformatter.options.</span>set
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">set = function (opts) {
+  var preset = opts &amp;&amp; opts.preset ? opts.preset : 'default';
+  // we need to pass all the user settings and default settings to the plugins
+  // so they are able to toggle the behavior and make changes based on the
+  // options
+  _curOpts = mergePreset(preset, opts);
+
+  // FIXME: deprecate AlignComments on v1.0
+  // on v0.6.0 we named the property starting with uppercase "A" by mistake, so
+  // now we need to support both styles to keep consistency :(
+  if (_curOpts.indent &amp;&amp; 'AlignComments' in _curOpts.indent) {
+    _curOpts.indent.alignComments = _curOpts.indent.AlignComments;
+  }
+
+  _ws.setOptions(_curOpts.whiteSpace);
+  _br.setOptions(_curOpts.lineBreak);
+  indent.setOptions(_curOpts.indent);
+  plugins.setOptions(_curOpts);
+
+  // user provided options should override default settings and also any
+  // changes made by plugins
+  if (opts) {
+    _curOpts = deepMixIn(_curOpts, opts);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// from inside `format`
+exports.BYPASS_OPTIONS = {};
+
+// ---
+
+function transform(ast, opts) {
+if (opts !== exports.BYPASS_OPTIONS) {
+  _options.<span class="apidocCodeKeywordSpan">set</span>(opts);
+}
+// we store this here to avoid calling `_options.get` for each token
+_shouldRemoveTrailingWs = Boolean(_options.get('whiteSpace.removeTrailing'));
+
+plugins.transformBefore(ast);
+
+_tk.eachInBetween(ast.startToken, ast.endToken, preprocessToken);
+...</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.esformatter.plugins" id="apidoc.module.esformatter.plugins">module esformatter.plugins</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.loadAndRegister" id="apidoc.element.esformatter.plugins.loadAndRegister">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>loadAndRegister
+        <span class="apidocSignatureSpan">(idsOrModules)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function loadAndRegister(idsOrModules) {
+  idsOrModules = idsOrModules || [];
+  idsOrModules.forEach(function(idOrModule) {
+    var module = isObject(idOrModule) ?
+      idOrModule :
+      loadModule(idOrModule);
+    register(module);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.nodeAfter" id="apidoc.element.esformatter.plugins.nodeAfter">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>nodeAfter
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">nodeAfter = function () {
+    var rest = slice(arguments);
+
+    // Don't waste time checking for placeholders if there aren't any.
+    var args = has_ ? take(as.length, function(i) {
+        var a = as[i];
+        return a === _ ? rest.shift() : a;
+    }) : as;
+
+    return f.apply(this, rest.length ? args.concat(rest) : args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  _ws.limitBefore(node.startToken, node.type);
+  _ws.limitAfter(node.endToken, node.type);
+}
+
+// handle parenthesis automatically since it is needed by multiple node types
+// and it avoids code duplication and reduces complexity of each hook
+expressionParentheses.addSpaceInside(node);
+plugins.<span class="apidocCodeKeywordSpan">nodeAfter</span>(node);
+}
+
+
+function preprocessToken(token) {
+if (_tk.isComment(token)) {
+  _br.limit(token, token.type);
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.nodeBefore" id="apidoc.element.esformatter.plugins.nodeBefore">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>nodeBefore
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">nodeBefore = function () {
+    var rest = slice(arguments);
+
+    // Don't waste time checking for placeholders if there aren't any.
+    var args = has_ ? take(as.length, function(i) {
+        var a = as[i];
+        return a === _ ? rest.shift() : a;
+    }) : as;
+
+    return f.apply(this, rest.length ? args.concat(rest) : args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+plugins.transformAfter(ast);
+
+return ast;
+}
+
+
+function transformNode(node) {
+plugins.<span class="apidocCodeKeywordSpan">nodeBefore</span>(node);
+addBrAroundNode(node);
+
+var hook = hooks[node.type];
+if (hook &amp;&amp; 'format' in hook) {
+  hook.format(node);
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.register" id="apidoc.element.esformatter.plugins.register">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>register
+        <span class="apidocSignatureSpan">(plugin)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function register(plugin) {
+  if (_plugins.indexOf(plugin) === -1) {
+    _plugins.push(plugin);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.setOptions" id="apidoc.element.esformatter.plugins.setOptions">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>setOptions
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">setOptions = function (opts) {
+  loadAndRegister(opts &amp;&amp; opts.plugins);
+  // esformatter ends up being a circular dependency,
+  // but this was the quickest way of doing it :P
+  // needed specially because of issue #348
+  exec('setOptions', opts, require('./esformatter'));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+// ---
+
+
+exports.setOptions = setOptions;
+function setOptions(opts) {
+_opts = opts;
+indent.<span class="apidocCodeKeywordSpan">setOptions</span>(opts);
+}
+
+
+// transform AST in place
+exports.transform = transform;
+function transform(ast) {
+rocambole.walk(ast, transformNode);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.stringAfter" id="apidoc.element.esformatter.plugins.stringAfter">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>stringAfter
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">stringAfter = function () {
+    var rest = slice(arguments);
+
+    // Don't waste time checking for placeholders if there aren't any.
+    var args = has_ ? take(as.length, function(i) {
+        var a = as[i];
+        return a === _ ? rest.shift() : a;
+    }) : as;
+
+    return f.apply(this, rest.length ? args.concat(rest) : args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.stringBefore" id="apidoc.element.esformatter.plugins.stringBefore">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>stringBefore
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">stringBefore = function () {
+    var rest = slice(arguments);
+
+    // Don't waste time checking for placeholders if there aren't any.
+    var args = has_ ? take(as.length, function(i) {
+        var a = as[i];
+        return a === _ ? rest.shift() : a;
+    }) : as;
+
+    return f.apply(this, rest.length ? args.concat(rest) : args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.tokenAfter" id="apidoc.element.esformatter.plugins.tokenAfter">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>tokenAfter
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">tokenAfter = function () {
+    var rest = slice(arguments);
+
+    // Don't waste time checking for placeholders if there aren't any.
+    var args = has_ ? take(as.length, function(i) {
+        var a = as[i];
+        return a === _ ? rest.shift() : a;
+    }) : as;
+
+    return f.apply(this, rest.length ? args.concat(rest) : args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+function postprocessToken(token) {
+if (_tk.isComment(token)) {
+  processComment(token);
+} else if (_shouldRemoveTrailingWs &amp;&amp; _tk.isWs(token)) {
+  removeTrailingWs(token);
+}
+plugins.<span class="apidocCodeKeywordSpan">tokenAfter</span>(token);
+}
+
+
+function processComment(token) {
+_ws.limitBefore(token, token.type);
+// only block comment needs space afterwards
+if (token.type === 'BlockComment') {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.tokenBefore" id="apidoc.element.esformatter.plugins.tokenBefore">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>tokenBefore
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">tokenBefore = function () {
+    var rest = slice(arguments);
+
+    // Don't waste time checking for placeholders if there aren't any.
+    var args = has_ ? take(as.length, function(i) {
+        var a = as[i];
+        return a === _ ? rest.shift() : a;
+    }) : as;
+
+    return f.apply(this, rest.length ? args.concat(rest) : args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+
+function preprocessToken(token) {
+if (_tk.isComment(token)) {
+  _br.limit(token, token.type);
+}
+plugins.<span class="apidocCodeKeywordSpan">tokenBefore</span>(token);
+}
+
+
+function postprocessToken(token) {
+if (_tk.isComment(token)) {
+  processComment(token);
+} else if (_shouldRemoveTrailingWs &amp;&amp; _tk.isWs(token)) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.transform" id="apidoc.element.esformatter.plugins.transform">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>transform
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">transform = function () {
+    var rest = slice(arguments);
+
+    // Don't waste time checking for placeholders if there aren't any.
+    var args = has_ ? take(as.length, function(i) {
+        var a = as[i];
+        return a === _ ? rest.shift() : a;
+    }) : as;
+
+    return f.apply(this, rest.length ? args.concat(rest) : args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+_tk.eachInBetween(ast.startToken, ast.endToken, postprocessToken);
+_br.limitBeforeEndOfFile(ast);
+
+// indent should come after all other transformations since it depends on
+// line breaks caused by "parent" nodes, otherwise it will cause conflicts.
+// it should also happen after the postprocessToken since it adds line breaks
+// before/after comments and that changes the indent logic
+indent.<span class="apidocCodeKeywordSpan">transform</span>(ast);
+
+// plugin transformation comes after the indentation since we assume user
+// knows what he is doing (will increase flexibility and allow plugin to
+// override the indentation logic)
+// we have an alias "transform" to match v0.3 API, but favor `transformAfter`
+// moving forward. (we might deprecate "transform" in the future)
+plugins.transform(ast);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.transformAfter" id="apidoc.element.esformatter.plugins.transformAfter">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>transformAfter
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">transformAfter = function () {
+    var rest = slice(arguments);
+
+    // Don't waste time checking for placeholders if there aren't any.
+    var args = has_ ? take(as.length, function(i) {
+        var a = as[i];
+        return a === _ ? rest.shift() : a;
+    }) : as;
+
+    return f.apply(this, rest.length ? args.concat(rest) : args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+// plugin transformation comes after the indentation since we assume user
+// knows what he is doing (will increase flexibility and allow plugin to
+// override the indentation logic)
+// we have an alias "transform" to match v0.3 API, but favor `transformAfter`
+// moving forward. (we might deprecate "transform" in the future)
+plugins.transform(ast);
+plugins.<span class="apidocCodeKeywordSpan">transformAfter</span>(ast);
+
+return ast;
+}
+
+
+function transformNode(node) {
+plugins.nodeBefore(node);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.transformBefore" id="apidoc.element.esformatter.plugins.transformBefore">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>transformBefore
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">transformBefore = function () {
+    var rest = slice(arguments);
+
+    // Don't waste time checking for placeholders if there aren't any.
+    var args = has_ ? take(as.length, function(i) {
+        var a = as[i];
+        return a === _ ? rest.shift() : a;
+    }) : as;
+
+    return f.apply(this, rest.length ? args.concat(rest) : args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+function transform(ast, opts) {
+if (opts !== exports.BYPASS_OPTIONS) {
+  _options.set(opts);
+}
+// we store this here to avoid calling `_options.get` for each token
+_shouldRemoveTrailingWs = Boolean(_options.get('whiteSpace.removeTrailing'));
+
+plugins.<span class="apidocCodeKeywordSpan">transformBefore</span>(ast);
+
+_tk.eachInBetween(ast.startToken, ast.endToken, preprocessToken);
+rocambole.moonwalk(ast, transformNode);
+_tk.eachInBetween(ast.startToken, ast.endToken, postprocessToken);
+_br.limitBeforeEndOfFile(ast);
+
+// indent should come after all other transformations since it depends on
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.unregister" id="apidoc.element.esformatter.plugins.unregister">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>unregister
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">unregister = function () {
+    var rest = slice(arguments);
+
+    // Don't waste time checking for placeholders if there aren't any.
+    var args = has_ ? take(as.length, function(i) {
+        var a = as[i];
+        return a === _ ? rest.shift() : a;
+    }) : as;
+
+    return f.apply(this, rest.length ? args.concat(rest) : args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.esformatter.plugins.unregisterAll" id="apidoc.element.esformatter.plugins.unregisterAll">
+        function <span class="apidocSignatureSpan">esformatter.plugins.</span>unregisterAll
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function unregisterAll() {
+  _plugins = [];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
