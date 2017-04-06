@@ -1,348 +1,348 @@
 <svg height="5518" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="5518" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-06 21:06:47 +0000   312292 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-06 21:06:47 +0000    13976 byte  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-06 21:06:47 +0000     8217 byte  CONTRIBUTING.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-06 21:06:47 +0000     1082 byte  LICENSE.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-06 21:06:47 +0000     7340 byte  README.md</tspan>
-<tspan x="10" y="106">  5.  2017-04-06 21:06:47 +0000     1491 byte  bin/esformatter</tspan>
-<tspan x="10" y="122">  6.  2017-04-06 21:06:47 +0000     4534 byte  doc/api.md</tspan>
-<tspan x="10" y="138">  7.  2017-04-06 21:06:47 +0000      717 byte  doc/cli.txt</tspan>
-<tspan x="10" y="154">  8.  2017-04-06 21:06:47 +0000     7008 byte  doc/config.md</tspan>
-<tspan x="10" y="170">  9.  2017-04-06 21:06:47 +0000     6866 byte  doc/plugins.md</tspan>
-<tspan x="10" y="186"> 10.  2017-04-06 21:06:47 +0000     1663 byte  doc/presets.md</tspan>
-<tspan x="10" y="202"> 11.  2017-04-06 21:06:47 +0000     6165 byte  lib/cli.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-06 21:06:47 +0000     1058 byte  lib/diff.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-06 21:06:47 +0000      699 byte  lib/esformatter.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-06 21:06:47 +0000     1985 byte  lib/format.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-06 21:06:47 +0000      401 byte  lib/helpers.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-06 21:06:47 +0000     2909 byte  lib/hooks.js</tspan>
-<tspan x="10" y="298"> 17.  2017-04-06 21:06:47 +0000     1587 byte  lib/hooks/ArrayExpression.js</tspan>
-<tspan x="10" y="314"> 18.  2017-04-06 21:06:47 +0000      678 byte  lib/hooks/ArrayPattern.js</tspan>
-<tspan x="10" y="330"> 19.  2017-04-06 21:06:47 +0000     1406 byte  lib/hooks/ArrowFunctionExpression.js</tspan>
-<tspan x="10" y="346"> 20.  2017-04-06 21:06:47 +0000     1065 byte  lib/hooks/AssignmentExpression.js</tspan>
-<tspan x="10" y="362"> 21.  2017-04-06 21:06:47 +0000      595 byte  lib/hooks/BinaryExpression.js</tspan>
-<tspan x="10" y="378"> 22.  2017-04-06 21:06:47 +0000      726 byte  lib/hooks/BlockStatement.js</tspan>
-<tspan x="10" y="394"> 23.  2017-04-06 21:06:47 +0000     3649 byte  lib/hooks/CallExpression.js</tspan>
-<tspan x="10" y="410"> 24.  2017-04-06 21:06:47 +0000      834 byte  lib/hooks/CatchClause.js</tspan>
-<tspan x="10" y="426"> 25.  2017-04-06 21:06:47 +0000      807 byte  lib/hooks/ClassDeclarationAndExpression.js</tspan>
-<tspan x="10" y="442"> 26.  2017-04-06 21:06:47 +0000     1155 byte  lib/hooks/ConditionalExpression.js</tspan>
-<tspan x="10" y="458"> 27.  2017-04-06 21:06:47 +0000      878 byte  lib/hooks/DoWhileStatement.js</tspan>
-<tspan x="10" y="474"> 28.  2017-04-06 21:06:47 +0000      408 byte  lib/hooks/ExportAllDeclaration.js</tspan>
-<tspan x="10" y="490"> 29.  2017-04-06 21:06:47 +0000      297 byte  lib/hooks/ExportDefaultDeclaration.js</tspan>
-<tspan x="10" y="506"> 30.  2017-04-06 21:06:47 +0000      708 byte  lib/hooks/ExportNamedDeclaration.js</tspan>
-<tspan x="10" y="522"> 31.  2017-04-06 21:06:47 +0000       62 byte  lib/hooks/ExportSpecifier.js</tspan>
-<tspan x="10" y="538"> 32.  2017-04-06 21:06:47 +0000     1483 byte  lib/hooks/ForInStatement.js</tspan>
-<tspan x="10" y="554"> 33.  2017-04-06 21:06:47 +0000     1483 byte  lib/hooks/ForOfStatement.js</tspan>
-<tspan x="10" y="570"> 34.  2017-04-06 21:06:47 +0000     1286 byte  lib/hooks/ForStatement.js</tspan>
-<tspan x="10" y="586"> 35.  2017-04-06 21:06:47 +0000     1091 byte  lib/hooks/FunctionDeclaration.js</tspan>
-<tspan x="10" y="602"> 36.  2017-04-06 21:06:47 +0000     2086 byte  lib/hooks/FunctionExpression.js</tspan>
-<tspan x="10" y="618"> 37.  2017-04-06 21:06:47 +0000     3814 byte  lib/hooks/IfStatement.js</tspan>
-<tspan x="10" y="634"> 38.  2017-04-06 21:06:47 +0000      986 byte  lib/hooks/ImportDeclaration.js</tspan>
-<tspan x="10" y="650"> 39.  2017-04-06 21:06:47 +0000     1584 byte  lib/hooks/ImportSpecifier.js</tspan>
-<tspan x="10" y="666"> 40.  2017-04-06 21:06:47 +0000      954 byte  lib/hooks/LogicalExpression.js</tspan>
-<tspan x="10" y="682"> 41.  2017-04-06 21:06:47 +0000     1103 byte  lib/hooks/MemberExpression.js</tspan>
-<tspan x="10" y="698"> 42.  2017-04-06 21:06:47 +0000      784 byte  lib/hooks/MethodDefinition.js</tspan>
-<tspan x="10" y="714"> 43.  2017-04-06 21:06:47 +0000     3674 byte  lib/hooks/ObjectExpression.js</tspan>
-<tspan x="10" y="730"> 44.  2017-04-06 21:06:47 +0000      451 byte  lib/hooks/ObjectPattern.js</tspan>
-<tspan x="10" y="746"> 45.  2017-04-06 21:06:47 +0000     1947 byte  lib/hooks/Params.js</tspan>
-<tspan x="10" y="762"> 46.  2017-04-06 21:06:47 +0000     1556 byte  lib/hooks/ReturnStatement.js</tspan>
-<tspan x="10" y="778"> 47.  2017-04-06 21:06:47 +0000      356 byte  lib/hooks/SequenceExpression.js</tspan>
-<tspan x="10" y="794"> 48.  2017-04-06 21:06:47 +0000     1575 byte  lib/hooks/SwitchCase.js</tspan>
-<tspan x="10" y="810"> 49.  2017-04-06 21:06:47 +0000      771 byte  lib/hooks/SwitchStatement.js</tspan>
-<tspan x="10" y="826"> 50.  2017-04-06 21:06:47 +0000      158 byte  lib/hooks/ThrowStatement.js</tspan>
-<tspan x="10" y="842"> 51.  2017-04-06 21:06:47 +0000     1209 byte  lib/hooks/TryStatement.js</tspan>
-<tspan x="10" y="858"> 52.  2017-04-06 21:06:47 +0000     1306 byte  lib/hooks/UnaryExpression.js</tspan>
-<tspan x="10" y="874"> 53.  2017-04-06 21:06:47 +0000      369 byte  lib/hooks/UpdateExpression.js</tspan>
-<tspan x="10" y="890"> 54.  2017-04-06 21:06:47 +0000     2760 byte  lib/hooks/VariableDeclaration.js</tspan>
-<tspan x="10" y="906"> 55.  2017-04-06 21:06:47 +0000     1239 byte  lib/hooks/WhileStatement.js</tspan>
-<tspan x="10" y="922"> 56.  2017-04-06 21:06:47 +0000     3024 byte  lib/hooks/expressionParentheses.js</tspan>
-<tspan x="10" y="938"> 57.  2017-04-06 21:06:47 +0000     2655 byte  lib/indent.js</tspan>
-<tspan x="10" y="954"> 58.  2017-04-06 21:06:47 +0000      638 byte  lib/limit.js</tspan>
-<tspan x="10" y="970"> 59.  2017-04-06 21:06:47 +0000     3095 byte  lib/lineBreakAroundNode.js</tspan>
-<tspan x="10" y="986"> 60.  2017-04-06 21:06:47 +0000     7212 byte  lib/options.js</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-06 21:06:47 +0000     2206 byte  lib/plugins.js</tspan>
-<tspan x="10" y="1018"> 62.  2017-04-06 21:06:47 +0000     1482 byte  lib/preset/default-indent.js</tspan>
-<tspan x="10" y="1034"> 63.  2017-04-06 21:06:47 +0000     3616 byte  lib/preset/default-linebreak-after.js</tspan>
-<tspan x="10" y="1050"> 64.  2017-04-06 21:06:47 +0000     3765 byte  lib/preset/default-linebreak-before.js</tspan>
-<tspan x="10" y="1066"> 65.  2017-04-06 21:06:47 +0000     3661 byte  lib/preset/default-whitespace-after.js</tspan>
-<tspan x="10" y="1082"> 66.  2017-04-06 21:06:47 +0000     3735 byte  lib/preset/default-whitespace-before.js</tspan>
-<tspan x="10" y="1098"> 67.  2017-04-06 21:06:47 +0000      468 byte  lib/preset/default.js</tspan>
-<tspan x="10" y="1114"> 68.  2017-04-06 21:06:47 +0000     1691 byte  lib/preset/jquery.js</tspan>
-<tspan x="10" y="1130"> 69.  2017-04-06 21:06:47 +0000     3564 byte  lib/transform.js</tspan>
-<tspan x="10" y="1146"> 70.  2017-04-06 21:06:47 +0000     3859 byte  package.json</tspan>
-<tspan x="10" y="1162"> 71.  2017-04-06 21:06:47 +0000     4051 byte  test/api.spec.js</tspan>
-<tspan x="10" y="1178"> 72.  2017-04-06 21:06:47 +0000       42 byte  test/bin/config.json</tspan>
-<tspan x="10" y="1194"> 73.  2017-04-06 21:06:47 +0000    11077 byte  test/cli.spec.js</tspan>
-<tspan x="10" y="1210"> 74.  2017-04-06 21:06:47 +0000      330 byte  test/compare/custom/README.md</tspan>
-<tspan x="10" y="1226"> 75.  2017-04-06 21:06:47 +0000      199 byte  test/compare/custom/align_comments-config.json</tspan>
-<tspan x="10" y="1242"> 76.  2017-04-06 21:06:47 +0000      314 byte  test/compare/custom/align_comments-in.js</tspan>
-<tspan x="10" y="1258"> 77.  2017-04-06 21:06:47 +0000      314 byte  test/compare/custom/align_comments-out.js</tspan>
-<tspan x="10" y="1274"> 78.  2017-04-06 21:06:47 +0000      124 byte  test/compare/custom/argumentlist-config.json</tspan>
-<tspan x="10" y="1290"> 79.  2017-04-06 21:06:47 +0000      247 byte  test/compare/custom/argumentlist-in.js</tspan>
-<tspan x="10" y="1306"> 80.  2017-04-06 21:06:47 +0000      232 byte  test/compare/custom/argumentlist-out.js</tspan>
-<tspan x="10" y="1322"> 81.  2017-04-06 21:06:47 +0000      145 byte  test/compare/custom/array_bug-config.json</tspan>
-<tspan x="10" y="1338"> 82.  2017-04-06 21:06:47 +0000       32 byte  test/compare/custom/array_bug-in.js</tspan>
-<tspan x="10" y="1354"> 83.  2017-04-06 21:06:47 +0000       32 byte  test/compare/custom/array_bug-out.js</tspan>
-<tspan x="10" y="1370"> 84.  2017-04-06 21:06:47 +0000      647 byte  test/compare/custom/array_expression-2-config.jso\</tspan>
+<tspan x="10" y="26">  0.  2017-04-06 21:08:33 +0000   312292 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-06 21:08:33 +0000    13976 byte  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-06 21:08:33 +0000     8217 byte  CONTRIBUTING.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-06 21:08:33 +0000     1082 byte  LICENSE.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-06 21:08:33 +0000     7340 byte  README.md</tspan>
+<tspan x="10" y="106">  5.  2017-04-06 21:08:33 +0000     1491 byte  bin/esformatter</tspan>
+<tspan x="10" y="122">  6.  2017-04-06 21:08:33 +0000     4534 byte  doc/api.md</tspan>
+<tspan x="10" y="138">  7.  2017-04-06 21:08:33 +0000      717 byte  doc/cli.txt</tspan>
+<tspan x="10" y="154">  8.  2017-04-06 21:08:33 +0000     7008 byte  doc/config.md</tspan>
+<tspan x="10" y="170">  9.  2017-04-06 21:08:33 +0000     6866 byte  doc/plugins.md</tspan>
+<tspan x="10" y="186"> 10.  2017-04-06 21:08:33 +0000     1663 byte  doc/presets.md</tspan>
+<tspan x="10" y="202"> 11.  2017-04-06 21:08:33 +0000     6165 byte  lib/cli.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-06 21:08:33 +0000     1058 byte  lib/diff.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-06 21:08:33 +0000      699 byte  lib/esformatter.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-06 21:08:33 +0000     1985 byte  lib/format.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-06 21:08:33 +0000      401 byte  lib/helpers.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-06 21:08:33 +0000     2909 byte  lib/hooks.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-06 21:08:33 +0000     1587 byte  lib/hooks/ArrayExpression.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-06 21:08:33 +0000      678 byte  lib/hooks/ArrayPattern.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-06 21:08:33 +0000     1406 byte  lib/hooks/ArrowFunctionExpression.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-06 21:08:33 +0000     1065 byte  lib/hooks/AssignmentExpression.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-06 21:08:33 +0000      595 byte  lib/hooks/BinaryExpression.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-06 21:08:33 +0000      726 byte  lib/hooks/BlockStatement.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-06 21:08:33 +0000     3649 byte  lib/hooks/CallExpression.js</tspan>
+<tspan x="10" y="410"> 24.  2017-04-06 21:08:33 +0000      834 byte  lib/hooks/CatchClause.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-06 21:08:33 +0000      807 byte  lib/hooks/ClassDeclarationAndExpression.js</tspan>
+<tspan x="10" y="442"> 26.  2017-04-06 21:08:33 +0000     1155 byte  lib/hooks/ConditionalExpression.js</tspan>
+<tspan x="10" y="458"> 27.  2017-04-06 21:08:33 +0000      878 byte  lib/hooks/DoWhileStatement.js</tspan>
+<tspan x="10" y="474"> 28.  2017-04-06 21:08:33 +0000      408 byte  lib/hooks/ExportAllDeclaration.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-06 21:08:33 +0000      297 byte  lib/hooks/ExportDefaultDeclaration.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-06 21:08:33 +0000      708 byte  lib/hooks/ExportNamedDeclaration.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-06 21:08:33 +0000       62 byte  lib/hooks/ExportSpecifier.js</tspan>
+<tspan x="10" y="538"> 32.  2017-04-06 21:08:33 +0000     1483 byte  lib/hooks/ForInStatement.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-06 21:08:33 +0000     1483 byte  lib/hooks/ForOfStatement.js</tspan>
+<tspan x="10" y="570"> 34.  2017-04-06 21:08:33 +0000     1286 byte  lib/hooks/ForStatement.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-06 21:08:33 +0000     1091 byte  lib/hooks/FunctionDeclaration.js</tspan>
+<tspan x="10" y="602"> 36.  2017-04-06 21:08:33 +0000     2086 byte  lib/hooks/FunctionExpression.js</tspan>
+<tspan x="10" y="618"> 37.  2017-04-06 21:08:33 +0000     3814 byte  lib/hooks/IfStatement.js</tspan>
+<tspan x="10" y="634"> 38.  2017-04-06 21:08:33 +0000      986 byte  lib/hooks/ImportDeclaration.js</tspan>
+<tspan x="10" y="650"> 39.  2017-04-06 21:08:33 +0000     1584 byte  lib/hooks/ImportSpecifier.js</tspan>
+<tspan x="10" y="666"> 40.  2017-04-06 21:08:33 +0000      954 byte  lib/hooks/LogicalExpression.js</tspan>
+<tspan x="10" y="682"> 41.  2017-04-06 21:08:33 +0000     1103 byte  lib/hooks/MemberExpression.js</tspan>
+<tspan x="10" y="698"> 42.  2017-04-06 21:08:33 +0000      784 byte  lib/hooks/MethodDefinition.js</tspan>
+<tspan x="10" y="714"> 43.  2017-04-06 21:08:33 +0000     3674 byte  lib/hooks/ObjectExpression.js</tspan>
+<tspan x="10" y="730"> 44.  2017-04-06 21:08:33 +0000      451 byte  lib/hooks/ObjectPattern.js</tspan>
+<tspan x="10" y="746"> 45.  2017-04-06 21:08:33 +0000     1947 byte  lib/hooks/Params.js</tspan>
+<tspan x="10" y="762"> 46.  2017-04-06 21:08:33 +0000     1556 byte  lib/hooks/ReturnStatement.js</tspan>
+<tspan x="10" y="778"> 47.  2017-04-06 21:08:33 +0000      356 byte  lib/hooks/SequenceExpression.js</tspan>
+<tspan x="10" y="794"> 48.  2017-04-06 21:08:33 +0000     1575 byte  lib/hooks/SwitchCase.js</tspan>
+<tspan x="10" y="810"> 49.  2017-04-06 21:08:33 +0000      771 byte  lib/hooks/SwitchStatement.js</tspan>
+<tspan x="10" y="826"> 50.  2017-04-06 21:08:33 +0000      158 byte  lib/hooks/ThrowStatement.js</tspan>
+<tspan x="10" y="842"> 51.  2017-04-06 21:08:33 +0000     1209 byte  lib/hooks/TryStatement.js</tspan>
+<tspan x="10" y="858"> 52.  2017-04-06 21:08:33 +0000     1306 byte  lib/hooks/UnaryExpression.js</tspan>
+<tspan x="10" y="874"> 53.  2017-04-06 21:08:33 +0000      369 byte  lib/hooks/UpdateExpression.js</tspan>
+<tspan x="10" y="890"> 54.  2017-04-06 21:08:33 +0000     2760 byte  lib/hooks/VariableDeclaration.js</tspan>
+<tspan x="10" y="906"> 55.  2017-04-06 21:08:33 +0000     1239 byte  lib/hooks/WhileStatement.js</tspan>
+<tspan x="10" y="922"> 56.  2017-04-06 21:08:33 +0000     3024 byte  lib/hooks/expressionParentheses.js</tspan>
+<tspan x="10" y="938"> 57.  2017-04-06 21:08:33 +0000     2655 byte  lib/indent.js</tspan>
+<tspan x="10" y="954"> 58.  2017-04-06 21:08:33 +0000      638 byte  lib/limit.js</tspan>
+<tspan x="10" y="970"> 59.  2017-04-06 21:08:33 +0000     3095 byte  lib/lineBreakAroundNode.js</tspan>
+<tspan x="10" y="986"> 60.  2017-04-06 21:08:33 +0000     7212 byte  lib/options.js</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-06 21:08:33 +0000     2206 byte  lib/plugins.js</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-06 21:08:33 +0000     1482 byte  lib/preset/default-indent.js</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-06 21:08:33 +0000     3616 byte  lib/preset/default-linebreak-after.js</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-06 21:08:33 +0000     3765 byte  lib/preset/default-linebreak-before.js</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-06 21:08:33 +0000     3661 byte  lib/preset/default-whitespace-after.js</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-06 21:08:33 +0000     3735 byte  lib/preset/default-whitespace-before.js</tspan>
+<tspan x="10" y="1098"> 67.  2017-04-06 21:08:33 +0000      468 byte  lib/preset/default.js</tspan>
+<tspan x="10" y="1114"> 68.  2017-04-06 21:08:33 +0000     1691 byte  lib/preset/jquery.js</tspan>
+<tspan x="10" y="1130"> 69.  2017-04-06 21:08:33 +0000     3564 byte  lib/transform.js</tspan>
+<tspan x="10" y="1146"> 70.  2017-04-06 21:08:33 +0000     3859 byte  package.json</tspan>
+<tspan x="10" y="1162"> 71.  2017-04-06 21:08:33 +0000     4051 byte  test/api.spec.js</tspan>
+<tspan x="10" y="1178"> 72.  2017-04-06 21:08:33 +0000       42 byte  test/bin/config.json</tspan>
+<tspan x="10" y="1194"> 73.  2017-04-06 21:08:33 +0000    11077 byte  test/cli.spec.js</tspan>
+<tspan x="10" y="1210"> 74.  2017-04-06 21:08:33 +0000      330 byte  test/compare/custom/README.md</tspan>
+<tspan x="10" y="1226"> 75.  2017-04-06 21:08:33 +0000      199 byte  test/compare/custom/align_comments-config.json</tspan>
+<tspan x="10" y="1242"> 76.  2017-04-06 21:08:33 +0000      314 byte  test/compare/custom/align_comments-in.js</tspan>
+<tspan x="10" y="1258"> 77.  2017-04-06 21:08:33 +0000      314 byte  test/compare/custom/align_comments-out.js</tspan>
+<tspan x="10" y="1274"> 78.  2017-04-06 21:08:33 +0000      124 byte  test/compare/custom/argumentlist-config.json</tspan>
+<tspan x="10" y="1290"> 79.  2017-04-06 21:08:33 +0000      247 byte  test/compare/custom/argumentlist-in.js</tspan>
+<tspan x="10" y="1306"> 80.  2017-04-06 21:08:33 +0000      232 byte  test/compare/custom/argumentlist-out.js</tspan>
+<tspan x="10" y="1322"> 81.  2017-04-06 21:08:33 +0000      145 byte  test/compare/custom/array_bug-config.json</tspan>
+<tspan x="10" y="1338"> 82.  2017-04-06 21:08:33 +0000       32 byte  test/compare/custom/array_bug-in.js</tspan>
+<tspan x="10" y="1354"> 83.  2017-04-06 21:08:33 +0000       32 byte  test/compare/custom/array_bug-out.js</tspan>
+<tspan x="10" y="1370"> 84.  2017-04-06 21:08:33 +0000      647 byte  test/compare/custom/array_expression-2-config.jso\</tspan>
 <tspan x="10" y="1386">n</tspan>
-<tspan x="10" y="1402"> 85.  2017-04-06 21:06:47 +0000      366 byte  test/compare/custom/array_expression-2-in.js</tspan>
-<tspan x="10" y="1418"> 86.  2017-04-06 21:06:47 +0000      699 byte  test/compare/custom/array_expression-2-out.js</tspan>
-<tspan x="10" y="1434"> 87.  2017-04-06 21:06:47 +0000      680 byte  test/compare/custom/array_expression-config.json</tspan>
-<tspan x="10" y="1450"> 88.  2017-04-06 21:06:47 +0000      306 byte  test/compare/custom/array_expression-in.js</tspan>
-<tspan x="10" y="1466"> 89.  2017-04-06 21:06:47 +0000      325 byte  test/compare/custom/array_expression-out.js</tspan>
-<tspan x="10" y="1482"> 90.  2017-04-06 21:06:47 +0000      170 byte  test/compare/custom/arrow_function_expression-con\</tspan>
+<tspan x="10" y="1402"> 85.  2017-04-06 21:08:33 +0000      366 byte  test/compare/custom/array_expression-2-in.js</tspan>
+<tspan x="10" y="1418"> 86.  2017-04-06 21:08:33 +0000      699 byte  test/compare/custom/array_expression-2-out.js</tspan>
+<tspan x="10" y="1434"> 87.  2017-04-06 21:08:33 +0000      680 byte  test/compare/custom/array_expression-config.json</tspan>
+<tspan x="10" y="1450"> 88.  2017-04-06 21:08:33 +0000      306 byte  test/compare/custom/array_expression-in.js</tspan>
+<tspan x="10" y="1466"> 89.  2017-04-06 21:08:33 +0000      325 byte  test/compare/custom/array_expression-out.js</tspan>
+<tspan x="10" y="1482"> 90.  2017-04-06 21:08:33 +0000      170 byte  test/compare/custom/arrow_function_expression-con\</tspan>
 <tspan x="10" y="1498">fig.json</tspan>
-<tspan x="10" y="1514"> 91.  2017-04-06 21:06:47 +0000      170 byte  test/compare/custom/arrow_function_expression-in.\</tspan>
+<tspan x="10" y="1514"> 91.  2017-04-06 21:08:33 +0000      170 byte  test/compare/custom/arrow_function_expression-in.\</tspan>
 <tspan x="10" y="1530">js</tspan>
-<tspan x="10" y="1546"> 92.  2017-04-06 21:06:47 +0000      165 byte  test/compare/custom/arrow_function_expression-out\</tspan>
+<tspan x="10" y="1546"> 92.  2017-04-06 21:08:33 +0000      165 byte  test/compare/custom/arrow_function_expression-out\</tspan>
 <tspan x="10" y="1562">.js</tspan>
-<tspan x="10" y="1578"> 93.  2017-04-06 21:06:47 +0000      377 byte  test/compare/custom/assignment_expression-config.\</tspan>
+<tspan x="10" y="1578"> 93.  2017-04-06 21:08:33 +0000      377 byte  test/compare/custom/assignment_expression-config.\</tspan>
 <tspan x="10" y="1594">json</tspan>
-<tspan x="10" y="1610"> 94.  2017-04-06 21:06:47 +0000       60 byte  test/compare/custom/assignment_expression-in.js</tspan>
-<tspan x="10" y="1626"> 95.  2017-04-06 21:06:47 +0000       51 byte  test/compare/custom/assignment_expression-out.js</tspan>
-<tspan x="10" y="1642"> 96.  2017-04-06 21:06:47 +0000      800 byte  test/compare/custom/basic_function_indent-config.\</tspan>
+<tspan x="10" y="1610"> 94.  2017-04-06 21:08:33 +0000       60 byte  test/compare/custom/assignment_expression-in.js</tspan>
+<tspan x="10" y="1626"> 95.  2017-04-06 21:08:33 +0000       51 byte  test/compare/custom/assignment_expression-out.js</tspan>
+<tspan x="10" y="1642"> 96.  2017-04-06 21:08:33 +0000      800 byte  test/compare/custom/basic_function_indent-config.\</tspan>
 <tspan x="10" y="1658">json</tspan>
-<tspan x="10" y="1674"> 97.  2017-04-06 21:06:47 +0000       31 byte  test/compare/custom/basic_function_indent-in.js</tspan>
-<tspan x="10" y="1690"> 98.  2017-04-06 21:06:47 +0000       38 byte  test/compare/custom/basic_function_indent-out.js</tspan>
-<tspan x="10" y="1706"> 99.  2017-04-06 21:06:47 +0000      314 byte  test/compare/custom/basic_function_indent_2-confi\</tspan>
+<tspan x="10" y="1674"> 97.  2017-04-06 21:08:33 +0000       31 byte  test/compare/custom/basic_function_indent-in.js</tspan>
+<tspan x="10" y="1690"> 98.  2017-04-06 21:08:33 +0000       38 byte  test/compare/custom/basic_function_indent-out.js</tspan>
+<tspan x="10" y="1706"> 99.  2017-04-06 21:08:33 +0000      314 byte  test/compare/custom/basic_function_indent_2-confi\</tspan>
 <tspan x="10" y="1722">g.json</tspan>
-<tspan x="10" y="1738">100.  2017-04-06 21:06:47 +0000       31 byte  test/compare/custom/basic_function_indent_2-in.js</tspan>
-<tspan x="10" y="1754">101.  2017-04-06 21:06:47 +0000       39 byte  test/compare/custom/basic_function_indent_2-out.j\</tspan>
+<tspan x="10" y="1738">100.  2017-04-06 21:08:33 +0000       31 byte  test/compare/custom/basic_function_indent_2-in.js</tspan>
+<tspan x="10" y="1754">101.  2017-04-06 21:08:33 +0000       39 byte  test/compare/custom/basic_function_indent_2-out.j\</tspan>
 <tspan x="10" y="1770">s</tspan>
-<tspan x="10" y="1786">102.  2017-04-06 21:06:47 +0000       48 byte  test/compare/custom/binary_expression-config.json</tspan>
-<tspan x="10" y="1802">103.  2017-04-06 21:06:47 +0000       46 byte  test/compare/custom/binary_expression-in.js</tspan>
-<tspan x="10" y="1818">104.  2017-04-06 21:06:47 +0000       72 byte  test/compare/custom/binary_expression-out.js</tspan>
-<tspan x="10" y="1834">105.  2017-04-06 21:06:47 +0000      404 byte  test/compare/custom/call_expression-config.json</tspan>
-<tspan x="10" y="1850">106.  2017-04-06 21:06:47 +0000      407 byte  test/compare/custom/call_expression-in.js</tspan>
-<tspan x="10" y="1866">107.  2017-04-06 21:06:47 +0000      406 byte  test/compare/custom/call_expression-out.js</tspan>
-<tspan x="10" y="1882">108.  2017-04-06 21:06:47 +0000      357 byte  test/compare/custom/class-config.json</tspan>
-<tspan x="10" y="1898">109.  2017-04-06 21:06:47 +0000      183 byte  test/compare/custom/class-in.js</tspan>
-<tspan x="10" y="1914">110.  2017-04-06 21:06:47 +0000      185 byte  test/compare/custom/class-out.js</tspan>
-<tspan x="10" y="1930">111.  2017-04-06 21:06:47 +0000      254 byte  test/compare/custom/class_declaration-config.json</tspan>
-<tspan x="10" y="1946">112.  2017-04-06 21:06:47 +0000      923 byte  test/compare/custom/class_declaration-in.js</tspan>
-<tspan x="10" y="1962">113.  2017-04-06 21:06:47 +0000      965 byte  test/compare/custom/class_declaration-out.js</tspan>
-<tspan x="10" y="1978">114.  2017-04-06 21:06:47 +0000      117 byte  test/compare/custom/comment_group-config.json</tspan>
-<tspan x="10" y="1994">115.  2017-04-06 21:06:47 +0000      657 byte  test/compare/custom/comment_group-in.js</tspan>
-<tspan x="10" y="2010">116.  2017-04-06 21:06:47 +0000      660 byte  test/compare/custom/comment_group-out.js</tspan>
-<tspan x="10" y="2026">117.  2017-04-06 21:06:47 +0000      456 byte  test/compare/custom/commented_config-config.json</tspan>
-<tspan x="10" y="2042">118.  2017-04-06 21:06:47 +0000       20 byte  test/compare/custom/commented_config-in.js</tspan>
-<tspan x="10" y="2058">119.  2017-04-06 21:06:47 +0000       25 byte  test/compare/custom/commented_config-out.js</tspan>
-<tspan x="10" y="2074">120.  2017-04-06 21:06:47 +0000      344 byte  test/compare/custom/conditional_expression-config\</tspan>
+<tspan x="10" y="1786">102.  2017-04-06 21:08:33 +0000       48 byte  test/compare/custom/binary_expression-config.json</tspan>
+<tspan x="10" y="1802">103.  2017-04-06 21:08:33 +0000       46 byte  test/compare/custom/binary_expression-in.js</tspan>
+<tspan x="10" y="1818">104.  2017-04-06 21:08:33 +0000       72 byte  test/compare/custom/binary_expression-out.js</tspan>
+<tspan x="10" y="1834">105.  2017-04-06 21:08:33 +0000      404 byte  test/compare/custom/call_expression-config.json</tspan>
+<tspan x="10" y="1850">106.  2017-04-06 21:08:33 +0000      407 byte  test/compare/custom/call_expression-in.js</tspan>
+<tspan x="10" y="1866">107.  2017-04-06 21:08:33 +0000      406 byte  test/compare/custom/call_expression-out.js</tspan>
+<tspan x="10" y="1882">108.  2017-04-06 21:08:33 +0000      357 byte  test/compare/custom/class-config.json</tspan>
+<tspan x="10" y="1898">109.  2017-04-06 21:08:33 +0000      183 byte  test/compare/custom/class-in.js</tspan>
+<tspan x="10" y="1914">110.  2017-04-06 21:08:33 +0000      185 byte  test/compare/custom/class-out.js</tspan>
+<tspan x="10" y="1930">111.  2017-04-06 21:08:33 +0000      254 byte  test/compare/custom/class_declaration-config.json</tspan>
+<tspan x="10" y="1946">112.  2017-04-06 21:08:33 +0000      923 byte  test/compare/custom/class_declaration-in.js</tspan>
+<tspan x="10" y="1962">113.  2017-04-06 21:08:33 +0000      965 byte  test/compare/custom/class_declaration-out.js</tspan>
+<tspan x="10" y="1978">114.  2017-04-06 21:08:33 +0000      117 byte  test/compare/custom/comment_group-config.json</tspan>
+<tspan x="10" y="1994">115.  2017-04-06 21:08:33 +0000      657 byte  test/compare/custom/comment_group-in.js</tspan>
+<tspan x="10" y="2010">116.  2017-04-06 21:08:33 +0000      660 byte  test/compare/custom/comment_group-out.js</tspan>
+<tspan x="10" y="2026">117.  2017-04-06 21:08:33 +0000      456 byte  test/compare/custom/commented_config-config.json</tspan>
+<tspan x="10" y="2042">118.  2017-04-06 21:08:33 +0000       20 byte  test/compare/custom/commented_config-in.js</tspan>
+<tspan x="10" y="2058">119.  2017-04-06 21:08:33 +0000       25 byte  test/compare/custom/commented_config-out.js</tspan>
+<tspan x="10" y="2074">120.  2017-04-06 21:08:33 +0000      344 byte  test/compare/custom/conditional_expression-config\</tspan>
 <tspan x="10" y="2090">.json</tspan>
-<tspan x="10" y="2106">121.  2017-04-06 21:06:47 +0000      170 byte  test/compare/custom/conditional_expression-in.js</tspan>
-<tspan x="10" y="2122">122.  2017-04-06 21:06:47 +0000      166 byte  test/compare/custom/conditional_expression-out.js</tspan>
-<tspan x="10" y="2138">123.  2017-04-06 21:06:47 +0000      187 byte  test/compare/custom/expression_parentheses-config\</tspan>
+<tspan x="10" y="2106">121.  2017-04-06 21:08:33 +0000      170 byte  test/compare/custom/conditional_expression-in.js</tspan>
+<tspan x="10" y="2122">122.  2017-04-06 21:08:33 +0000      166 byte  test/compare/custom/conditional_expression-out.js</tspan>
+<tspan x="10" y="2138">123.  2017-04-06 21:08:33 +0000      187 byte  test/compare/custom/expression_parentheses-config\</tspan>
 <tspan x="10" y="2154">.json</tspan>
-<tspan x="10" y="2170">124.  2017-04-06 21:06:47 +0000      733 byte  test/compare/custom/expression_parentheses-in.js</tspan>
-<tspan x="10" y="2186">125.  2017-04-06 21:06:47 +0000      772 byte  test/compare/custom/expression_parentheses-out.js</tspan>
-<tspan x="10" y="2202">126.  2017-04-06 21:06:47 +0000      296 byte  test/compare/custom/for_in_statement-config.json</tspan>
-<tspan x="10" y="2218">127.  2017-04-06 21:06:47 +0000      538 byte  test/compare/custom/for_in_statement-in.js</tspan>
-<tspan x="10" y="2234">128.  2017-04-06 21:06:47 +0000      551 byte  test/compare/custom/for_in_statement-out.js</tspan>
-<tspan x="10" y="2250">129.  2017-04-06 21:06:47 +0000      296 byte  test/compare/custom/for_of_statement-config.json</tspan>
-<tspan x="10" y="2266">130.  2017-04-06 21:06:47 +0000      538 byte  test/compare/custom/for_of_statement-in.js</tspan>
-<tspan x="10" y="2282">131.  2017-04-06 21:06:47 +0000      551 byte  test/compare/custom/for_of_statement-out.js</tspan>
-<tspan x="10" y="2298">132.  2017-04-06 21:06:47 +0000      157 byte  test/compare/custom/for_statement-config.json</tspan>
-<tspan x="10" y="2314">133.  2017-04-06 21:06:47 +0000      366 byte  test/compare/custom/for_statement-in.js</tspan>
-<tspan x="10" y="2330">134.  2017-04-06 21:06:47 +0000      378 byte  test/compare/custom/for_statement-out.js</tspan>
-<tspan x="10" y="2346">135.  2017-04-06 21:06:47 +0000      527 byte  test/compare/custom/function-expression-config.js\</tspan>
+<tspan x="10" y="2170">124.  2017-04-06 21:08:33 +0000      733 byte  test/compare/custom/expression_parentheses-in.js</tspan>
+<tspan x="10" y="2186">125.  2017-04-06 21:08:33 +0000      772 byte  test/compare/custom/expression_parentheses-out.js</tspan>
+<tspan x="10" y="2202">126.  2017-04-06 21:08:33 +0000      296 byte  test/compare/custom/for_in_statement-config.json</tspan>
+<tspan x="10" y="2218">127.  2017-04-06 21:08:33 +0000      538 byte  test/compare/custom/for_in_statement-in.js</tspan>
+<tspan x="10" y="2234">128.  2017-04-06 21:08:33 +0000      551 byte  test/compare/custom/for_in_statement-out.js</tspan>
+<tspan x="10" y="2250">129.  2017-04-06 21:08:33 +0000      296 byte  test/compare/custom/for_of_statement-config.json</tspan>
+<tspan x="10" y="2266">130.  2017-04-06 21:08:33 +0000      538 byte  test/compare/custom/for_of_statement-in.js</tspan>
+<tspan x="10" y="2282">131.  2017-04-06 21:08:33 +0000      551 byte  test/compare/custom/for_of_statement-out.js</tspan>
+<tspan x="10" y="2298">132.  2017-04-06 21:08:33 +0000      157 byte  test/compare/custom/for_statement-config.json</tspan>
+<tspan x="10" y="2314">133.  2017-04-06 21:08:33 +0000      366 byte  test/compare/custom/for_statement-in.js</tspan>
+<tspan x="10" y="2330">134.  2017-04-06 21:08:33 +0000      378 byte  test/compare/custom/for_statement-out.js</tspan>
+<tspan x="10" y="2346">135.  2017-04-06 21:08:33 +0000      527 byte  test/compare/custom/function-expression-config.js\</tspan>
 <tspan x="10" y="2362">on</tspan>
-<tspan x="10" y="2378">136.  2017-04-06 21:06:47 +0000     3277 byte  test/compare/custom/function-expression-in.js</tspan>
-<tspan x="10" y="2394">137.  2017-04-06 21:06:47 +0000     3601 byte  test/compare/custom/function-expression-out.js</tspan>
-<tspan x="10" y="2410">138.  2017-04-06 21:06:47 +0000      219 byte  test/compare/custom/function_expression_bug-confi\</tspan>
+<tspan x="10" y="2378">136.  2017-04-06 21:08:33 +0000     3277 byte  test/compare/custom/function-expression-in.js</tspan>
+<tspan x="10" y="2394">137.  2017-04-06 21:08:33 +0000     3601 byte  test/compare/custom/function-expression-out.js</tspan>
+<tspan x="10" y="2410">138.  2017-04-06 21:08:33 +0000      219 byte  test/compare/custom/function_expression_bug-confi\</tspan>
 <tspan x="10" y="2426">g.json</tspan>
-<tspan x="10" y="2442">139.  2017-04-06 21:06:47 +0000       94 byte  test/compare/custom/function_expression_bug-in.js</tspan>
-<tspan x="10" y="2458">140.  2017-04-06 21:06:47 +0000       94 byte  test/compare/custom/function_expression_bug-out.j\</tspan>
+<tspan x="10" y="2442">139.  2017-04-06 21:08:33 +0000       94 byte  test/compare/custom/function_expression_bug-in.js</tspan>
+<tspan x="10" y="2458">140.  2017-04-06 21:08:33 +0000       94 byte  test/compare/custom/function_expression_bug-out.j\</tspan>
 <tspan x="10" y="2474">s</tspan>
-<tspan x="10" y="2490">141.  2017-04-06 21:06:47 +0000      730 byte  test/compare/custom/if_statement-config.json</tspan>
-<tspan x="10" y="2506">142.  2017-04-06 21:06:47 +0000      824 byte  test/compare/custom/if_statement-in.js</tspan>
-<tspan x="10" y="2522">143.  2017-04-06 21:06:47 +0000      796 byte  test/compare/custom/if_statement-out.js</tspan>
-<tspan x="10" y="2538">144.  2017-04-06 21:06:47 +0000      287 byte  test/compare/custom/if_statement_spacy-config.jso\</tspan>
+<tspan x="10" y="2490">141.  2017-04-06 21:08:33 +0000      730 byte  test/compare/custom/if_statement-config.json</tspan>
+<tspan x="10" y="2506">142.  2017-04-06 21:08:33 +0000      824 byte  test/compare/custom/if_statement-in.js</tspan>
+<tspan x="10" y="2522">143.  2017-04-06 21:08:33 +0000      796 byte  test/compare/custom/if_statement-out.js</tspan>
+<tspan x="10" y="2538">144.  2017-04-06 21:08:33 +0000      287 byte  test/compare/custom/if_statement_spacy-config.jso\</tspan>
 <tspan x="10" y="2554">n</tspan>
-<tspan x="10" y="2570">145.  2017-04-06 21:06:47 +0000      371 byte  test/compare/custom/if_statement_spacy-in.js</tspan>
-<tspan x="10" y="2586">146.  2017-04-06 21:06:47 +0000      379 byte  test/compare/custom/if_statement_spacy-out.js</tspan>
-<tspan x="10" y="2602">147.  2017-04-06 21:06:47 +0000      240 byte  test/compare/custom/iife-config.json</tspan>
-<tspan x="10" y="2618">148.  2017-04-06 21:06:47 +0000      153 byte  test/compare/custom/iife-in.js</tspan>
-<tspan x="10" y="2634">149.  2017-04-06 21:06:47 +0000      174 byte  test/compare/custom/iife-out.js</tspan>
-<tspan x="10" y="2650">150.  2017-04-06 21:06:47 +0000       89 byte  test/compare/custom/linebreak-before-eof-2-config\</tspan>
+<tspan x="10" y="2570">145.  2017-04-06 21:08:33 +0000      371 byte  test/compare/custom/if_statement_spacy-in.js</tspan>
+<tspan x="10" y="2586">146.  2017-04-06 21:08:33 +0000      379 byte  test/compare/custom/if_statement_spacy-out.js</tspan>
+<tspan x="10" y="2602">147.  2017-04-06 21:08:33 +0000      240 byte  test/compare/custom/iife-config.json</tspan>
+<tspan x="10" y="2618">148.  2017-04-06 21:08:33 +0000      153 byte  test/compare/custom/iife-in.js</tspan>
+<tspan x="10" y="2634">149.  2017-04-06 21:08:33 +0000      174 byte  test/compare/custom/iife-out.js</tspan>
+<tspan x="10" y="2650">150.  2017-04-06 21:08:33 +0000       89 byte  test/compare/custom/linebreak-before-eof-2-config\</tspan>
 <tspan x="10" y="2666">.json</tspan>
-<tspan x="10" y="2682">151.  2017-04-06 21:06:47 +0000       88 byte  test/compare/custom/linebreak-before-eof-2-in.js</tspan>
-<tspan x="10" y="2698">152.  2017-04-06 21:06:47 +0000       92 byte  test/compare/custom/linebreak-before-eof-2-out.js</tspan>
-<tspan x="10" y="2714">153.  2017-04-06 21:06:47 +0000       89 byte  test/compare/custom/linebreak-before-eof-config.j\</tspan>
+<tspan x="10" y="2682">151.  2017-04-06 21:08:33 +0000       88 byte  test/compare/custom/linebreak-before-eof-2-in.js</tspan>
+<tspan x="10" y="2698">152.  2017-04-06 21:08:33 +0000       92 byte  test/compare/custom/linebreak-before-eof-2-out.js</tspan>
+<tspan x="10" y="2714">153.  2017-04-06 21:08:33 +0000       89 byte  test/compare/custom/linebreak-before-eof-config.j\</tspan>
 <tspan x="10" y="2730">son</tspan>
-<tspan x="10" y="2746">154.  2017-04-06 21:06:47 +0000       88 byte  test/compare/custom/linebreak-before-eof-in.js</tspan>
-<tspan x="10" y="2762">155.  2017-04-06 21:06:47 +0000       87 byte  test/compare/custom/linebreak-before-eof-out.js</tspan>
-<tspan x="10" y="2778">156.  2017-04-06 21:06:47 +0000      177 byte  test/compare/custom/member_expression-config.json</tspan>
-<tspan x="10" y="2794">157.  2017-04-06 21:06:47 +0000       61 byte  test/compare/custom/member_expression-in.js</tspan>
-<tspan x="10" y="2810">158.  2017-04-06 21:06:47 +0000       63 byte  test/compare/custom/member_expression-out.js</tspan>
-<tspan x="10" y="2826">159.  2017-04-06 21:06:47 +0000      740 byte  test/compare/custom/module-config.json</tspan>
-<tspan x="10" y="2842">160.  2017-04-06 21:06:47 +0000     1155 byte  test/compare/custom/module-in.js</tspan>
-<tspan x="10" y="2858">161.  2017-04-06 21:06:47 +0000     1156 byte  test/compare/custom/module-out.js</tspan>
-<tspan x="10" y="2874">162.  2017-04-06 21:06:47 +0000       89 byte  test/compare/custom/multi-indent-config.json</tspan>
-<tspan x="10" y="2890">163.  2017-04-06 21:06:47 +0000      124 byte  test/compare/custom/multi-indent-in.js</tspan>
-<tspan x="10" y="2906">164.  2017-04-06 21:06:47 +0000      224 byte  test/compare/custom/multi-indent-out.js</tspan>
-<tspan x="10" y="2922">165.  2017-04-06 21:06:47 +0000      161 byte  test/compare/custom/negative_indent-config.json</tspan>
-<tspan x="10" y="2938">166.  2017-04-06 21:06:47 +0000      217 byte  test/compare/custom/negative_indent-in.js</tspan>
-<tspan x="10" y="2954">167.  2017-04-06 21:06:47 +0000      259 byte  test/compare/custom/negative_indent-out.js</tspan>
-<tspan x="10" y="2970">168.  2017-04-06 21:06:47 +0000      146 byte  test/compare/custom/new_expression-config.json</tspan>
-<tspan x="10" y="2986">169.  2017-04-06 21:06:47 +0000      305 byte  test/compare/custom/new_expression-in.js</tspan>
-<tspan x="10" y="3002">170.  2017-04-06 21:06:47 +0000      313 byte  test/compare/custom/new_expression-out.js</tspan>
-<tspan x="10" y="3018">171.  2017-04-06 21:06:47 +0000      240 byte  test/compare/custom/object_expression-2-config.js\</tspan>
+<tspan x="10" y="2746">154.  2017-04-06 21:08:33 +0000       88 byte  test/compare/custom/linebreak-before-eof-in.js</tspan>
+<tspan x="10" y="2762">155.  2017-04-06 21:08:33 +0000       87 byte  test/compare/custom/linebreak-before-eof-out.js</tspan>
+<tspan x="10" y="2778">156.  2017-04-06 21:08:33 +0000      177 byte  test/compare/custom/member_expression-config.json</tspan>
+<tspan x="10" y="2794">157.  2017-04-06 21:08:33 +0000       61 byte  test/compare/custom/member_expression-in.js</tspan>
+<tspan x="10" y="2810">158.  2017-04-06 21:08:33 +0000       63 byte  test/compare/custom/member_expression-out.js</tspan>
+<tspan x="10" y="2826">159.  2017-04-06 21:08:33 +0000      740 byte  test/compare/custom/module-config.json</tspan>
+<tspan x="10" y="2842">160.  2017-04-06 21:08:33 +0000     1155 byte  test/compare/custom/module-in.js</tspan>
+<tspan x="10" y="2858">161.  2017-04-06 21:08:33 +0000     1156 byte  test/compare/custom/module-out.js</tspan>
+<tspan x="10" y="2874">162.  2017-04-06 21:08:33 +0000       89 byte  test/compare/custom/multi-indent-config.json</tspan>
+<tspan x="10" y="2890">163.  2017-04-06 21:08:33 +0000      124 byte  test/compare/custom/multi-indent-in.js</tspan>
+<tspan x="10" y="2906">164.  2017-04-06 21:08:33 +0000      224 byte  test/compare/custom/multi-indent-out.js</tspan>
+<tspan x="10" y="2922">165.  2017-04-06 21:08:33 +0000      161 byte  test/compare/custom/negative_indent-config.json</tspan>
+<tspan x="10" y="2938">166.  2017-04-06 21:08:33 +0000      217 byte  test/compare/custom/negative_indent-in.js</tspan>
+<tspan x="10" y="2954">167.  2017-04-06 21:08:33 +0000      259 byte  test/compare/custom/negative_indent-out.js</tspan>
+<tspan x="10" y="2970">168.  2017-04-06 21:08:33 +0000      146 byte  test/compare/custom/new_expression-config.json</tspan>
+<tspan x="10" y="2986">169.  2017-04-06 21:08:33 +0000      305 byte  test/compare/custom/new_expression-in.js</tspan>
+<tspan x="10" y="3002">170.  2017-04-06 21:08:33 +0000      313 byte  test/compare/custom/new_expression-out.js</tspan>
+<tspan x="10" y="3018">171.  2017-04-06 21:08:33 +0000      240 byte  test/compare/custom/object_expression-2-config.js\</tspan>
 <tspan x="10" y="3034">on</tspan>
-<tspan x="10" y="3050">172.  2017-04-06 21:06:47 +0000       65 byte  test/compare/custom/object_expression-2-in.js</tspan>
-<tspan x="10" y="3066">173.  2017-04-06 21:06:47 +0000       77 byte  test/compare/custom/object_expression-2-out.js</tspan>
-<tspan x="10" y="3082">174.  2017-04-06 21:06:47 +0000      482 byte  test/compare/custom/object_expression-3-config.js\</tspan>
+<tspan x="10" y="3050">172.  2017-04-06 21:08:33 +0000       65 byte  test/compare/custom/object_expression-2-in.js</tspan>
+<tspan x="10" y="3066">173.  2017-04-06 21:08:33 +0000       77 byte  test/compare/custom/object_expression-2-out.js</tspan>
+<tspan x="10" y="3082">174.  2017-04-06 21:08:33 +0000      482 byte  test/compare/custom/object_expression-3-config.js\</tspan>
 <tspan x="10" y="3098">on</tspan>
-<tspan x="10" y="3114">175.  2017-04-06 21:06:47 +0000      289 byte  test/compare/custom/object_expression-3-in.js</tspan>
-<tspan x="10" y="3130">176.  2017-04-06 21:06:47 +0000      301 byte  test/compare/custom/object_expression-3-out.js</tspan>
-<tspan x="10" y="3146">177.  2017-04-06 21:06:47 +0000       92 byte  test/compare/custom/object_expression-config.json</tspan>
-<tspan x="10" y="3162">178.  2017-04-06 21:06:47 +0000      611 byte  test/compare/custom/object_expression-in.js</tspan>
-<tspan x="10" y="3178">179.  2017-04-06 21:06:47 +0000      724 byte  test/compare/custom/object_expression-out.js</tspan>
-<tspan x="10" y="3194">180.  2017-04-06 21:06:47 +0000      348 byte  test/compare/custom/object_pattern-2-config.json</tspan>
-<tspan x="10" y="3210">181.  2017-04-06 21:06:47 +0000      127 byte  test/compare/custom/object_pattern-2-in.js</tspan>
-<tspan x="10" y="3226">182.  2017-04-06 21:06:47 +0000      122 byte  test/compare/custom/object_pattern-2-out.js</tspan>
-<tspan x="10" y="3242">183.  2017-04-06 21:06:47 +0000      301 byte  test/compare/custom/object_pattern-config.json</tspan>
-<tspan x="10" y="3258">184.  2017-04-06 21:06:47 +0000       30 byte  test/compare/custom/object_pattern-in.js</tspan>
-<tspan x="10" y="3274">185.  2017-04-06 21:06:47 +0000       42 byte  test/compare/custom/object_pattern-out.js</tspan>
-<tspan x="10" y="3290">186.  2017-04-06 21:06:47 +0000       83 byte  test/compare/custom/one-line-var-declaration-conf\</tspan>
+<tspan x="10" y="3114">175.  2017-04-06 21:08:33 +0000      289 byte  test/compare/custom/object_expression-3-in.js</tspan>
+<tspan x="10" y="3130">176.  2017-04-06 21:08:33 +0000      301 byte  test/compare/custom/object_expression-3-out.js</tspan>
+<tspan x="10" y="3146">177.  2017-04-06 21:08:33 +0000       92 byte  test/compare/custom/object_expression-config.json</tspan>
+<tspan x="10" y="3162">178.  2017-04-06 21:08:33 +0000      611 byte  test/compare/custom/object_expression-in.js</tspan>
+<tspan x="10" y="3178">179.  2017-04-06 21:08:33 +0000      724 byte  test/compare/custom/object_expression-out.js</tspan>
+<tspan x="10" y="3194">180.  2017-04-06 21:08:33 +0000      348 byte  test/compare/custom/object_pattern-2-config.json</tspan>
+<tspan x="10" y="3210">181.  2017-04-06 21:08:33 +0000      127 byte  test/compare/custom/object_pattern-2-in.js</tspan>
+<tspan x="10" y="3226">182.  2017-04-06 21:08:33 +0000      122 byte  test/compare/custom/object_pattern-2-out.js</tspan>
+<tspan x="10" y="3242">183.  2017-04-06 21:08:33 +0000      301 byte  test/compare/custom/object_pattern-config.json</tspan>
+<tspan x="10" y="3258">184.  2017-04-06 21:08:33 +0000       30 byte  test/compare/custom/object_pattern-in.js</tspan>
+<tspan x="10" y="3274">185.  2017-04-06 21:08:33 +0000       42 byte  test/compare/custom/object_pattern-out.js</tspan>
+<tspan x="10" y="3290">186.  2017-04-06 21:08:33 +0000       83 byte  test/compare/custom/one-line-var-declaration-conf\</tspan>
 <tspan x="10" y="3306">ig.json</tspan>
-<tspan x="10" y="3322">187.  2017-04-06 21:06:47 +0000       91 byte  test/compare/custom/one-line-var-declaration-in.j\</tspan>
+<tspan x="10" y="3322">187.  2017-04-06 21:08:33 +0000       91 byte  test/compare/custom/one-line-var-declaration-in.j\</tspan>
 <tspan x="10" y="3338">s</tspan>
-<tspan x="10" y="3354">188.  2017-04-06 21:06:47 +0000       85 byte  test/compare/custom/one-line-var-declaration-out.\</tspan>
+<tspan x="10" y="3354">188.  2017-04-06 21:08:33 +0000       85 byte  test/compare/custom/one-line-var-declaration-out.\</tspan>
 <tspan x="10" y="3370">js</tspan>
-<tspan x="10" y="3386">189.  2017-04-06 21:06:47 +0000      528 byte  test/compare/custom/switch_statement-config.json</tspan>
-<tspan x="10" y="3402">190.  2017-04-06 21:06:47 +0000      691 byte  test/compare/custom/switch_statement-in.js</tspan>
-<tspan x="10" y="3418">191.  2017-04-06 21:06:47 +0000      510 byte  test/compare/custom/switch_statement-out.js</tspan>
-<tspan x="10" y="3434">192.  2017-04-06 21:06:47 +0000       63 byte  test/compare/custom/top-level-indent-exception-co\</tspan>
+<tspan x="10" y="3386">189.  2017-04-06 21:08:33 +0000      528 byte  test/compare/custom/switch_statement-config.json</tspan>
+<tspan x="10" y="3402">190.  2017-04-06 21:08:33 +0000      691 byte  test/compare/custom/switch_statement-in.js</tspan>
+<tspan x="10" y="3418">191.  2017-04-06 21:08:33 +0000      510 byte  test/compare/custom/switch_statement-out.js</tspan>
+<tspan x="10" y="3434">192.  2017-04-06 21:08:33 +0000       63 byte  test/compare/custom/top-level-indent-exception-co\</tspan>
 <tspan x="10" y="3450">nfig.json</tspan>
-<tspan x="10" y="3466">193.  2017-04-06 21:06:47 +0000      687 byte  test/compare/custom/top-level-indent-exception-in\</tspan>
+<tspan x="10" y="3466">193.  2017-04-06 21:08:33 +0000      687 byte  test/compare/custom/top-level-indent-exception-in\</tspan>
 <tspan x="10" y="3482">.js</tspan>
-<tspan x="10" y="3498">194.  2017-04-06 21:06:47 +0000      585 byte  test/compare/custom/top-level-indent-exception-ou\</tspan>
+<tspan x="10" y="3498">194.  2017-04-06 21:08:33 +0000      585 byte  test/compare/custom/top-level-indent-exception-ou\</tspan>
 <tspan x="10" y="3514">t.js</tspan>
-<tspan x="10" y="3530">195.  2017-04-06 21:06:47 +0000     1140 byte  test/compare/custom/try_statement-config.json</tspan>
-<tspan x="10" y="3546">196.  2017-04-06 21:06:47 +0000     1605 byte  test/compare/custom/try_statement-in.js</tspan>
-<tspan x="10" y="3562">197.  2017-04-06 21:06:47 +0000     1517 byte  test/compare/custom/try_statement-out.js</tspan>
-<tspan x="10" y="3578">198.  2017-04-06 21:06:47 +0000      215 byte  test/compare/custom/unary_expression-config.json</tspan>
-<tspan x="10" y="3594">199.  2017-04-06 21:06:47 +0000      569 byte  test/compare/custom/unary_expression-in.js</tspan>
-<tspan x="10" y="3610">200.  2017-04-06 21:06:47 +0000      562 byte  test/compare/custom/unary_expression-out.js</tspan>
-<tspan x="10" y="3626">201.  2017-04-06 21:06:47 +0000      116 byte  test/compare/custom/variable_declaration-config.j\</tspan>
+<tspan x="10" y="3530">195.  2017-04-06 21:08:33 +0000     1140 byte  test/compare/custom/try_statement-config.json</tspan>
+<tspan x="10" y="3546">196.  2017-04-06 21:08:33 +0000     1605 byte  test/compare/custom/try_statement-in.js</tspan>
+<tspan x="10" y="3562">197.  2017-04-06 21:08:33 +0000     1517 byte  test/compare/custom/try_statement-out.js</tspan>
+<tspan x="10" y="3578">198.  2017-04-06 21:08:33 +0000      215 byte  test/compare/custom/unary_expression-config.json</tspan>
+<tspan x="10" y="3594">199.  2017-04-06 21:08:33 +0000      569 byte  test/compare/custom/unary_expression-in.js</tspan>
+<tspan x="10" y="3610">200.  2017-04-06 21:08:33 +0000      562 byte  test/compare/custom/unary_expression-out.js</tspan>
+<tspan x="10" y="3626">201.  2017-04-06 21:08:33 +0000      116 byte  test/compare/custom/variable_declaration-config.j\</tspan>
 <tspan x="10" y="3642">son</tspan>
-<tspan x="10" y="3658">202.  2017-04-06 21:06:47 +0000       82 byte  test/compare/custom/variable_declaration-in.js</tspan>
-<tspan x="10" y="3674">203.  2017-04-06 21:06:47 +0000      102 byte  test/compare/custom/variable_declaration-out.js</tspan>
-<tspan x="10" y="3690">204.  2017-04-06 21:06:47 +0000      358 byte  test/compare/default/README.md</tspan>
-<tspan x="10" y="3706">205.  2017-04-06 21:06:47 +0000      802 byte  test/compare/default/array_expression-in.js</tspan>
-<tspan x="10" y="3722">206.  2017-04-06 21:06:47 +0000      825 byte  test/compare/default/array_expression-out.js</tspan>
-<tspan x="10" y="3738">207.  2017-04-06 21:06:47 +0000       99 byte  test/compare/default/array_pattern-in.js</tspan>
-<tspan x="10" y="3754">208.  2017-04-06 21:06:47 +0000       87 byte  test/compare/default/array_pattern-out.js</tspan>
-<tspan x="10" y="3770">209.  2017-04-06 21:06:47 +0000      752 byte  test/compare/default/arrow_function_expression-in\</tspan>
+<tspan x="10" y="3658">202.  2017-04-06 21:08:33 +0000       82 byte  test/compare/custom/variable_declaration-in.js</tspan>
+<tspan x="10" y="3674">203.  2017-04-06 21:08:33 +0000      102 byte  test/compare/custom/variable_declaration-out.js</tspan>
+<tspan x="10" y="3690">204.  2017-04-06 21:08:33 +0000      358 byte  test/compare/default/README.md</tspan>
+<tspan x="10" y="3706">205.  2017-04-06 21:08:33 +0000      802 byte  test/compare/default/array_expression-in.js</tspan>
+<tspan x="10" y="3722">206.  2017-04-06 21:08:33 +0000      825 byte  test/compare/default/array_expression-out.js</tspan>
+<tspan x="10" y="3738">207.  2017-04-06 21:08:33 +0000       99 byte  test/compare/default/array_pattern-in.js</tspan>
+<tspan x="10" y="3754">208.  2017-04-06 21:08:33 +0000       87 byte  test/compare/default/array_pattern-out.js</tspan>
+<tspan x="10" y="3770">209.  2017-04-06 21:08:33 +0000      752 byte  test/compare/default/arrow_function_expression-in\</tspan>
 <tspan x="10" y="3786">.js</tspan>
-<tspan x="10" y="3802">210.  2017-04-06 21:06:47 +0000      705 byte  test/compare/default/arrow_function_expression-ou\</tspan>
+<tspan x="10" y="3802">210.  2017-04-06 21:08:33 +0000      705 byte  test/compare/default/arrow_function_expression-ou\</tspan>
 <tspan x="10" y="3818">t.js</tspan>
-<tspan x="10" y="3834">211.  2017-04-06 21:06:47 +0000     1134 byte  test/compare/default/assignment_expression-in.js</tspan>
-<tspan x="10" y="3850">212.  2017-04-06 21:06:47 +0000     1103 byte  test/compare/default/assignment_expression-out.js</tspan>
-<tspan x="10" y="3866">213.  2017-04-06 21:06:47 +0000      451 byte  test/compare/default/binary_expression-in.js</tspan>
-<tspan x="10" y="3882">214.  2017-04-06 21:06:47 +0000      470 byte  test/compare/default/binary_expression-out.js</tspan>
-<tspan x="10" y="3898">215.  2017-04-06 21:06:47 +0000      181 byte  test/compare/default/block_statement-in.js</tspan>
-<tspan x="10" y="3914">216.  2017-04-06 21:06:47 +0000      197 byte  test/compare/default/block_statement-out.js</tspan>
-<tspan x="10" y="3930">217.  2017-04-06 21:06:47 +0000     2092 byte  test/compare/default/call_expression-in.js</tspan>
-<tspan x="10" y="3946">218.  2017-04-06 21:06:47 +0000     2087 byte  test/compare/default/call_expression-out.js</tspan>
-<tspan x="10" y="3962">219.  2017-04-06 21:06:47 +0000      930 byte  test/compare/default/class_declaration-in.js</tspan>
-<tspan x="10" y="3978">220.  2017-04-06 21:06:47 +0000      942 byte  test/compare/default/class_declaration-out.js</tspan>
-<tspan x="10" y="3994">221.  2017-04-06 21:06:47 +0000     1081 byte  test/compare/default/class_expression-in.js</tspan>
-<tspan x="10" y="4010">222.  2017-04-06 21:06:47 +0000     1093 byte  test/compare/default/class_expression-out.js</tspan>
-<tspan x="10" y="4026">223.  2017-04-06 21:06:47 +0000      311 byte  test/compare/default/comma_operator-in.js</tspan>
-<tspan x="10" y="4042">224.  2017-04-06 21:06:47 +0000      337 byte  test/compare/default/comma_operator-out.js</tspan>
-<tspan x="10" y="4058">225.  2017-04-06 21:06:47 +0000     1236 byte  test/compare/default/comments-in.js</tspan>
-<tspan x="10" y="4074">226.  2017-04-06 21:06:47 +0000     1002 byte  test/compare/default/comments-out.js</tspan>
-<tspan x="10" y="4090">227.  2017-04-06 21:06:47 +0000      861 byte  test/compare/default/conditional_expression-in.js</tspan>
-<tspan x="10" y="4106">228.  2017-04-06 21:06:47 +0000      855 byte  test/compare/default/conditional_expression-out.j\</tspan>
+<tspan x="10" y="3834">211.  2017-04-06 21:08:33 +0000     1134 byte  test/compare/default/assignment_expression-in.js</tspan>
+<tspan x="10" y="3850">212.  2017-04-06 21:08:33 +0000     1103 byte  test/compare/default/assignment_expression-out.js</tspan>
+<tspan x="10" y="3866">213.  2017-04-06 21:08:33 +0000      451 byte  test/compare/default/binary_expression-in.js</tspan>
+<tspan x="10" y="3882">214.  2017-04-06 21:08:33 +0000      470 byte  test/compare/default/binary_expression-out.js</tspan>
+<tspan x="10" y="3898">215.  2017-04-06 21:08:33 +0000      181 byte  test/compare/default/block_statement-in.js</tspan>
+<tspan x="10" y="3914">216.  2017-04-06 21:08:33 +0000      197 byte  test/compare/default/block_statement-out.js</tspan>
+<tspan x="10" y="3930">217.  2017-04-06 21:08:33 +0000     2092 byte  test/compare/default/call_expression-in.js</tspan>
+<tspan x="10" y="3946">218.  2017-04-06 21:08:33 +0000     2087 byte  test/compare/default/call_expression-out.js</tspan>
+<tspan x="10" y="3962">219.  2017-04-06 21:08:33 +0000      930 byte  test/compare/default/class_declaration-in.js</tspan>
+<tspan x="10" y="3978">220.  2017-04-06 21:08:33 +0000      942 byte  test/compare/default/class_declaration-out.js</tspan>
+<tspan x="10" y="3994">221.  2017-04-06 21:08:33 +0000     1081 byte  test/compare/default/class_expression-in.js</tspan>
+<tspan x="10" y="4010">222.  2017-04-06 21:08:33 +0000     1093 byte  test/compare/default/class_expression-out.js</tspan>
+<tspan x="10" y="4026">223.  2017-04-06 21:08:33 +0000      311 byte  test/compare/default/comma_operator-in.js</tspan>
+<tspan x="10" y="4042">224.  2017-04-06 21:08:33 +0000      337 byte  test/compare/default/comma_operator-out.js</tspan>
+<tspan x="10" y="4058">225.  2017-04-06 21:08:33 +0000     1236 byte  test/compare/default/comments-in.js</tspan>
+<tspan x="10" y="4074">226.  2017-04-06 21:08:33 +0000     1002 byte  test/compare/default/comments-out.js</tspan>
+<tspan x="10" y="4090">227.  2017-04-06 21:08:33 +0000      861 byte  test/compare/default/conditional_expression-in.js</tspan>
+<tspan x="10" y="4106">228.  2017-04-06 21:08:33 +0000      855 byte  test/compare/default/conditional_expression-out.j\</tspan>
 <tspan x="10" y="4122">s</tspan>
-<tspan x="10" y="4138">229.  2017-04-06 21:06:47 +0000      320 byte  test/compare/default/do_while_statement-in.js</tspan>
-<tspan x="10" y="4154">230.  2017-04-06 21:06:47 +0000      363 byte  test/compare/default/do_while_statement-out.js</tspan>
-<tspan x="10" y="4170">231.  2017-04-06 21:06:47 +0000        0 byte  test/compare/default/empty_file-in.js</tspan>
-<tspan x="10" y="4186">232.  2017-04-06 21:06:47 +0000        0 byte  test/compare/default/empty_file-out.js</tspan>
-<tspan x="10" y="4202">233.  2017-04-06 21:06:47 +0000      452 byte  test/compare/default/flow-in.js</tspan>
-<tspan x="10" y="4218">234.  2017-04-06 21:06:47 +0000      452 byte  test/compare/default/flow-out.js</tspan>
-<tspan x="10" y="4234">235.  2017-04-06 21:06:47 +0000      719 byte  test/compare/default/for_in_statement-in.js</tspan>
-<tspan x="10" y="4250">236.  2017-04-06 21:06:47 +0000      705 byte  test/compare/default/for_in_statement-out.js</tspan>
-<tspan x="10" y="4266">237.  2017-04-06 21:06:47 +0000      718 byte  test/compare/default/for_of_statement-in.js</tspan>
-<tspan x="10" y="4282">238.  2017-04-06 21:06:47 +0000      704 byte  test/compare/default/for_of_statement-out.js</tspan>
-<tspan x="10" y="4298">239.  2017-04-06 21:06:47 +0000      560 byte  test/compare/default/for_statement-in.js</tspan>
-<tspan x="10" y="4314">240.  2017-04-06 21:06:47 +0000      562 byte  test/compare/default/for_statement-out.js</tspan>
-<tspan x="10" y="4330">241.  2017-04-06 21:06:47 +0000     1780 byte  test/compare/default/function_declaration-in.js</tspan>
-<tspan x="10" y="4346">242.  2017-04-06 21:06:47 +0000     1749 byte  test/compare/default/function_declaration-out.js</tspan>
-<tspan x="10" y="4362">243.  2017-04-06 21:06:47 +0000     1445 byte  test/compare/default/function_expression-in.js</tspan>
-<tspan x="10" y="4378">244.  2017-04-06 21:06:47 +0000     1343 byte  test/compare/default/function_expression-out.js</tspan>
-<tspan x="10" y="4394">245.  2017-04-06 21:06:47 +0000     2661 byte  test/compare/default/if_statement-in.js</tspan>
-<tspan x="10" y="4410">246.  2017-04-06 21:06:47 +0000     2682 byte  test/compare/default/if_statement-out.js</tspan>
-<tspan x="10" y="4426">247.  2017-04-06 21:06:47 +0000      405 byte  test/compare/default/iife-in.js</tspan>
-<tspan x="10" y="4442">248.  2017-04-06 21:06:47 +0000      447 byte  test/compare/default/iife-out.js</tspan>
-<tspan x="10" y="4458">249.  2017-04-06 21:06:47 +0000       46 byte  test/compare/default/inplace-in.js</tspan>
-<tspan x="10" y="4474">250.  2017-04-06 21:06:47 +0000       14 byte  test/compare/default/inplace-out.js</tspan>
-<tspan x="10" y="4490">251.  2017-04-06 21:06:47 +0000      222 byte  test/compare/default/jsx-in.js</tspan>
-<tspan x="10" y="4506">252.  2017-04-06 21:06:47 +0000      226 byte  test/compare/default/jsx-out.js</tspan>
-<tspan x="10" y="4522">253.  2017-04-06 21:06:47 +0000      549 byte  test/compare/default/logical_expression-in.js</tspan>
-<tspan x="10" y="4538">254.  2017-04-06 21:06:47 +0000      563 byte  test/compare/default/logical_expression-out.js</tspan>
-<tspan x="10" y="4554">255.  2017-04-06 21:06:47 +0000      372 byte  test/compare/default/member_expression-in.js</tspan>
-<tspan x="10" y="4570">256.  2017-04-06 21:06:47 +0000      346 byte  test/compare/default/member_expression-out.js</tspan>
-<tspan x="10" y="4586">257.  2017-04-06 21:06:47 +0000     1207 byte  test/compare/default/module-in.js</tspan>
-<tspan x="10" y="4602">258.  2017-04-06 21:06:47 +0000     1170 byte  test/compare/default/module-out.js</tspan>
-<tspan x="10" y="4618">259.  2017-04-06 21:06:47 +0000      363 byte  test/compare/default/new_expression-in.js</tspan>
-<tspan x="10" y="4634">260.  2017-04-06 21:06:47 +0000      363 byte  test/compare/default/new_expression-out.js</tspan>
-<tspan x="10" y="4650">261.  2017-04-06 21:06:47 +0000     2189 byte  test/compare/default/obj_expression-in.js</tspan>
-<tspan x="10" y="4666">262.  2017-04-06 21:06:47 +0000     2302 byte  test/compare/default/obj_expression-out.js</tspan>
-<tspan x="10" y="4682">263.  2017-04-06 21:06:47 +0000      212 byte  test/compare/default/object_pattern-in.js</tspan>
-<tspan x="10" y="4698">264.  2017-04-06 21:06:47 +0000      192 byte  test/compare/default/object_pattern-out.js</tspan>
-<tspan x="10" y="4714">265.  2017-04-06 21:06:47 +0000     1302 byte  test/compare/default/switch_statement-in.js</tspan>
-<tspan x="10" y="4730">266.  2017-04-06 21:06:47 +0000     1163 byte  test/compare/default/switch_statement-out.js</tspan>
-<tspan x="10" y="4746">267.  2017-04-06 21:06:47 +0000      165 byte  test/compare/default/throw_statement-in.js</tspan>
-<tspan x="10" y="4762">268.  2017-04-06 21:06:47 +0000      177 byte  test/compare/default/throw_statement-out.js</tspan>
-<tspan x="10" y="4778">269.  2017-04-06 21:06:47 +0000     1719 byte  test/compare/default/try_statement-in.js</tspan>
-<tspan x="10" y="4794">270.  2017-04-06 21:06:47 +0000     1544 byte  test/compare/default/try_statement-out.js</tspan>
-<tspan x="10" y="4810">271.  2017-04-06 21:06:47 +0000      569 byte  test/compare/default/unary_expression-in.js</tspan>
-<tspan x="10" y="4826">272.  2017-04-06 21:06:47 +0000      545 byte  test/compare/default/unary_expression-out.js</tspan>
-<tspan x="10" y="4842">273.  2017-04-06 21:06:47 +0000     1464 byte  test/compare/default/var-in.js</tspan>
-<tspan x="10" y="4858">274.  2017-04-06 21:06:47 +0000     1435 byte  test/compare/default/var-out.js</tspan>
-<tspan x="10" y="4874">275.  2017-04-06 21:06:47 +0000      531 byte  test/compare/default/while_statement-in.js</tspan>
-<tspan x="10" y="4890">276.  2017-04-06 21:06:47 +0000      476 byte  test/compare/default/while_statement-out.js</tspan>
-<tspan x="10" y="4906">277.  2017-04-06 21:06:47 +0000        8 byte  test/compare/error/invalid-1.js</tspan>
-<tspan x="10" y="4922">278.  2017-04-06 21:06:47 +0000       93 byte  test/compare/error/invalid-2.js</tspan>
-<tspan x="10" y="4938">279.  2017-04-06 21:06:47 +0000       19 byte  test/compare/error/invalid.json</tspan>
-<tspan x="10" y="4954">280.  2017-04-06 21:06:47 +0000       55 byte  test/compare/fake-preset/2-in.js</tspan>
-<tspan x="10" y="4970">281.  2017-04-06 21:06:47 +0000       72 byte  test/compare/fake-preset/2-out.js</tspan>
-<tspan x="10" y="4986">282.  2017-04-06 21:06:47 +0000      158 byte  test/compare/fake-preset/package.json</tspan>
-<tspan x="10" y="5002">283.  2017-04-06 21:06:47 +0000     1691 byte  test/compare/jquery/spacing-in.js</tspan>
-<tspan x="10" y="5018">284.  2017-04-06 21:06:47 +0000     1680 byte  test/compare/jquery/spacing-out.js</tspan>
-<tspan x="10" y="5034">285.  2017-04-06 21:06:47 +0000       72 byte  test/compare/rc/nested/nested-in.js</tspan>
-<tspan x="10" y="5050">286.  2017-04-06 21:06:47 +0000       72 byte  test/compare/rc/nested/nested-out.js</tspan>
-<tspan x="10" y="5066">287.  2017-04-06 21:06:47 +0000       76 byte  test/compare/rc/package/nested/indent.json</tspan>
-<tspan x="10" y="5082">288.  2017-04-06 21:06:47 +0000      124 byte  test/compare/rc/package/nested/package.json</tspan>
-<tspan x="10" y="5098">289.  2017-04-06 21:06:47 +0000       72 byte  test/compare/rc/package/nested/pkg_nested-in.js</tspan>
-<tspan x="10" y="5114">290.  2017-04-06 21:06:47 +0000       75 byte  test/compare/rc/package/nested/pkg_nested-out.js</tspan>
-<tspan x="10" y="5130">291.  2017-04-06 21:06:47 +0000       26 byte  test/compare/rc/package/package-in.js</tspan>
-<tspan x="10" y="5146">292.  2017-04-06 21:06:47 +0000       30 byte  test/compare/rc/package/package-out.js</tspan>
-<tspan x="10" y="5162">293.  2017-04-06 21:06:47 +0000      194 byte  test/compare/rc/package/package.json</tspan>
-<tspan x="10" y="5178">294.  2017-04-06 21:06:47 +0000      140 byte  test/compare/rc/package/rc/function.json</tspan>
-<tspan x="10" y="5194">295.  2017-04-06 21:06:47 +0000       28 byte  test/compare/rc/package/rc/nested-in.js</tspan>
-<tspan x="10" y="5210">296.  2017-04-06 21:06:47 +0000       33 byte  test/compare/rc/package/rc/nested-out.js</tspan>
-<tspan x="10" y="5226">297.  2017-04-06 21:06:47 +0000       25 byte  test/compare/rc/top-in.js</tspan>
-<tspan x="10" y="5242">298.  2017-04-06 21:06:47 +0000       33 byte  test/compare/rc/top-out.js</tspan>
-<tspan x="10" y="5258">299.  2017-04-06 21:06:47 +0000     3513 byte  test/diff.spec.js</tspan>
-<tspan x="10" y="5274">300.  2017-04-06 21:06:47 +0000     4321 byte  test/format.spec.js</tspan>
-<tspan x="10" y="5290">301.  2017-04-06 21:06:47 +0000     1423 byte  test/helpers.js</tspan>
-<tspan x="10" y="5306">302.  2017-04-06 21:06:47 +0000     1232 byte  test/pipe.spec.js</tspan>
-<tspan x="10" y="5322">303.  2017-04-06 21:06:47 +0000      157 byte  test/pipe/bin/esformatter-pipe-test-1</tspan>
-<tspan x="10" y="5338">304.  2017-04-06 21:06:47 +0000      157 byte  test/pipe/bin/esformatter-pipe-test-2</tspan>
-<tspan x="10" y="5354">305.  2017-04-06 21:06:47 +0000      376 byte  test/pipe/package.json</tspan>
-<tspan x="10" y="5370">306.  2017-04-06 21:06:47 +0000      476 byte  test/plugin/esformatter-test-plugin.js</tspan>
-<tspan x="10" y="5386">307.  2017-04-06 21:06:47 +0000      267 byte  test/plugin/package.json</tspan>
-<tspan x="10" y="5402">308.  2017-04-06 21:06:47 +0000     8119 byte  test/plugins.spec.js</tspan>
-<tspan x="10" y="5418">309.  2017-04-06 21:06:47 +0000      254 byte  test/preset/fake1/esformatter-preset-fake-1.js</tspan>
-<tspan x="10" y="5434">310.  2017-04-06 21:06:47 +0000      334 byte  test/preset/fake1/package.json</tspan>
-<tspan x="10" y="5450">311.  2017-04-06 21:06:47 +0000      256 byte  test/preset/fake2/esformatter-preset-fake-2.js</tspan>
-<tspan x="10" y="5466">312.  2017-04-06 21:06:47 +0000      332 byte  test/preset/fake2/package.json</tspan>
-<tspan x="10" y="5482">313.  2017-04-06 21:06:47 +0000     1084 byte  test/runner.js</tspan>
-<tspan x="10" y="5498">314.  2017-04-06 21:06:47 +0000      862 byte  test/transform.spec.js</tspan>
+<tspan x="10" y="4138">229.  2017-04-06 21:08:33 +0000      320 byte  test/compare/default/do_while_statement-in.js</tspan>
+<tspan x="10" y="4154">230.  2017-04-06 21:08:33 +0000      363 byte  test/compare/default/do_while_statement-out.js</tspan>
+<tspan x="10" y="4170">231.  2017-04-06 21:08:33 +0000        0 byte  test/compare/default/empty_file-in.js</tspan>
+<tspan x="10" y="4186">232.  2017-04-06 21:08:33 +0000        0 byte  test/compare/default/empty_file-out.js</tspan>
+<tspan x="10" y="4202">233.  2017-04-06 21:08:33 +0000      452 byte  test/compare/default/flow-in.js</tspan>
+<tspan x="10" y="4218">234.  2017-04-06 21:08:33 +0000      452 byte  test/compare/default/flow-out.js</tspan>
+<tspan x="10" y="4234">235.  2017-04-06 21:08:33 +0000      719 byte  test/compare/default/for_in_statement-in.js</tspan>
+<tspan x="10" y="4250">236.  2017-04-06 21:08:33 +0000      705 byte  test/compare/default/for_in_statement-out.js</tspan>
+<tspan x="10" y="4266">237.  2017-04-06 21:08:33 +0000      718 byte  test/compare/default/for_of_statement-in.js</tspan>
+<tspan x="10" y="4282">238.  2017-04-06 21:08:33 +0000      704 byte  test/compare/default/for_of_statement-out.js</tspan>
+<tspan x="10" y="4298">239.  2017-04-06 21:08:33 +0000      560 byte  test/compare/default/for_statement-in.js</tspan>
+<tspan x="10" y="4314">240.  2017-04-06 21:08:33 +0000      562 byte  test/compare/default/for_statement-out.js</tspan>
+<tspan x="10" y="4330">241.  2017-04-06 21:08:33 +0000     1780 byte  test/compare/default/function_declaration-in.js</tspan>
+<tspan x="10" y="4346">242.  2017-04-06 21:08:33 +0000     1749 byte  test/compare/default/function_declaration-out.js</tspan>
+<tspan x="10" y="4362">243.  2017-04-06 21:08:33 +0000     1445 byte  test/compare/default/function_expression-in.js</tspan>
+<tspan x="10" y="4378">244.  2017-04-06 21:08:33 +0000     1343 byte  test/compare/default/function_expression-out.js</tspan>
+<tspan x="10" y="4394">245.  2017-04-06 21:08:33 +0000     2661 byte  test/compare/default/if_statement-in.js</tspan>
+<tspan x="10" y="4410">246.  2017-04-06 21:08:33 +0000     2682 byte  test/compare/default/if_statement-out.js</tspan>
+<tspan x="10" y="4426">247.  2017-04-06 21:08:33 +0000      405 byte  test/compare/default/iife-in.js</tspan>
+<tspan x="10" y="4442">248.  2017-04-06 21:08:33 +0000      447 byte  test/compare/default/iife-out.js</tspan>
+<tspan x="10" y="4458">249.  2017-04-06 21:08:33 +0000       46 byte  test/compare/default/inplace-in.js</tspan>
+<tspan x="10" y="4474">250.  2017-04-06 21:08:33 +0000       14 byte  test/compare/default/inplace-out.js</tspan>
+<tspan x="10" y="4490">251.  2017-04-06 21:08:33 +0000      222 byte  test/compare/default/jsx-in.js</tspan>
+<tspan x="10" y="4506">252.  2017-04-06 21:08:33 +0000      226 byte  test/compare/default/jsx-out.js</tspan>
+<tspan x="10" y="4522">253.  2017-04-06 21:08:33 +0000      549 byte  test/compare/default/logical_expression-in.js</tspan>
+<tspan x="10" y="4538">254.  2017-04-06 21:08:33 +0000      563 byte  test/compare/default/logical_expression-out.js</tspan>
+<tspan x="10" y="4554">255.  2017-04-06 21:08:33 +0000      372 byte  test/compare/default/member_expression-in.js</tspan>
+<tspan x="10" y="4570">256.  2017-04-06 21:08:33 +0000      346 byte  test/compare/default/member_expression-out.js</tspan>
+<tspan x="10" y="4586">257.  2017-04-06 21:08:33 +0000     1207 byte  test/compare/default/module-in.js</tspan>
+<tspan x="10" y="4602">258.  2017-04-06 21:08:33 +0000     1170 byte  test/compare/default/module-out.js</tspan>
+<tspan x="10" y="4618">259.  2017-04-06 21:08:33 +0000      363 byte  test/compare/default/new_expression-in.js</tspan>
+<tspan x="10" y="4634">260.  2017-04-06 21:08:33 +0000      363 byte  test/compare/default/new_expression-out.js</tspan>
+<tspan x="10" y="4650">261.  2017-04-06 21:08:33 +0000     2189 byte  test/compare/default/obj_expression-in.js</tspan>
+<tspan x="10" y="4666">262.  2017-04-06 21:08:33 +0000     2302 byte  test/compare/default/obj_expression-out.js</tspan>
+<tspan x="10" y="4682">263.  2017-04-06 21:08:33 +0000      212 byte  test/compare/default/object_pattern-in.js</tspan>
+<tspan x="10" y="4698">264.  2017-04-06 21:08:33 +0000      192 byte  test/compare/default/object_pattern-out.js</tspan>
+<tspan x="10" y="4714">265.  2017-04-06 21:08:33 +0000     1302 byte  test/compare/default/switch_statement-in.js</tspan>
+<tspan x="10" y="4730">266.  2017-04-06 21:08:33 +0000     1163 byte  test/compare/default/switch_statement-out.js</tspan>
+<tspan x="10" y="4746">267.  2017-04-06 21:08:33 +0000      165 byte  test/compare/default/throw_statement-in.js</tspan>
+<tspan x="10" y="4762">268.  2017-04-06 21:08:33 +0000      177 byte  test/compare/default/throw_statement-out.js</tspan>
+<tspan x="10" y="4778">269.  2017-04-06 21:08:33 +0000     1719 byte  test/compare/default/try_statement-in.js</tspan>
+<tspan x="10" y="4794">270.  2017-04-06 21:08:33 +0000     1544 byte  test/compare/default/try_statement-out.js</tspan>
+<tspan x="10" y="4810">271.  2017-04-06 21:08:33 +0000      569 byte  test/compare/default/unary_expression-in.js</tspan>
+<tspan x="10" y="4826">272.  2017-04-06 21:08:33 +0000      545 byte  test/compare/default/unary_expression-out.js</tspan>
+<tspan x="10" y="4842">273.  2017-04-06 21:08:33 +0000     1464 byte  test/compare/default/var-in.js</tspan>
+<tspan x="10" y="4858">274.  2017-04-06 21:08:33 +0000     1435 byte  test/compare/default/var-out.js</tspan>
+<tspan x="10" y="4874">275.  2017-04-06 21:08:33 +0000      531 byte  test/compare/default/while_statement-in.js</tspan>
+<tspan x="10" y="4890">276.  2017-04-06 21:08:33 +0000      476 byte  test/compare/default/while_statement-out.js</tspan>
+<tspan x="10" y="4906">277.  2017-04-06 21:08:33 +0000        8 byte  test/compare/error/invalid-1.js</tspan>
+<tspan x="10" y="4922">278.  2017-04-06 21:08:33 +0000       93 byte  test/compare/error/invalid-2.js</tspan>
+<tspan x="10" y="4938">279.  2017-04-06 21:08:33 +0000       19 byte  test/compare/error/invalid.json</tspan>
+<tspan x="10" y="4954">280.  2017-04-06 21:08:33 +0000       55 byte  test/compare/fake-preset/2-in.js</tspan>
+<tspan x="10" y="4970">281.  2017-04-06 21:08:33 +0000       72 byte  test/compare/fake-preset/2-out.js</tspan>
+<tspan x="10" y="4986">282.  2017-04-06 21:08:33 +0000      158 byte  test/compare/fake-preset/package.json</tspan>
+<tspan x="10" y="5002">283.  2017-04-06 21:08:33 +0000     1691 byte  test/compare/jquery/spacing-in.js</tspan>
+<tspan x="10" y="5018">284.  2017-04-06 21:08:33 +0000     1680 byte  test/compare/jquery/spacing-out.js</tspan>
+<tspan x="10" y="5034">285.  2017-04-06 21:08:33 +0000       72 byte  test/compare/rc/nested/nested-in.js</tspan>
+<tspan x="10" y="5050">286.  2017-04-06 21:08:33 +0000       72 byte  test/compare/rc/nested/nested-out.js</tspan>
+<tspan x="10" y="5066">287.  2017-04-06 21:08:33 +0000       76 byte  test/compare/rc/package/nested/indent.json</tspan>
+<tspan x="10" y="5082">288.  2017-04-06 21:08:33 +0000      124 byte  test/compare/rc/package/nested/package.json</tspan>
+<tspan x="10" y="5098">289.  2017-04-06 21:08:33 +0000       72 byte  test/compare/rc/package/nested/pkg_nested-in.js</tspan>
+<tspan x="10" y="5114">290.  2017-04-06 21:08:33 +0000       75 byte  test/compare/rc/package/nested/pkg_nested-out.js</tspan>
+<tspan x="10" y="5130">291.  2017-04-06 21:08:33 +0000       26 byte  test/compare/rc/package/package-in.js</tspan>
+<tspan x="10" y="5146">292.  2017-04-06 21:08:33 +0000       30 byte  test/compare/rc/package/package-out.js</tspan>
+<tspan x="10" y="5162">293.  2017-04-06 21:08:33 +0000      194 byte  test/compare/rc/package/package.json</tspan>
+<tspan x="10" y="5178">294.  2017-04-06 21:08:33 +0000      140 byte  test/compare/rc/package/rc/function.json</tspan>
+<tspan x="10" y="5194">295.  2017-04-06 21:08:33 +0000       28 byte  test/compare/rc/package/rc/nested-in.js</tspan>
+<tspan x="10" y="5210">296.  2017-04-06 21:08:33 +0000       33 byte  test/compare/rc/package/rc/nested-out.js</tspan>
+<tspan x="10" y="5226">297.  2017-04-06 21:08:33 +0000       25 byte  test/compare/rc/top-in.js</tspan>
+<tspan x="10" y="5242">298.  2017-04-06 21:08:33 +0000       33 byte  test/compare/rc/top-out.js</tspan>
+<tspan x="10" y="5258">299.  2017-04-06 21:08:33 +0000     3513 byte  test/diff.spec.js</tspan>
+<tspan x="10" y="5274">300.  2017-04-06 21:08:33 +0000     4321 byte  test/format.spec.js</tspan>
+<tspan x="10" y="5290">301.  2017-04-06 21:08:33 +0000     1423 byte  test/helpers.js</tspan>
+<tspan x="10" y="5306">302.  2017-04-06 21:08:33 +0000     1232 byte  test/pipe.spec.js</tspan>
+<tspan x="10" y="5322">303.  2017-04-06 21:08:33 +0000      157 byte  test/pipe/bin/esformatter-pipe-test-1</tspan>
+<tspan x="10" y="5338">304.  2017-04-06 21:08:33 +0000      157 byte  test/pipe/bin/esformatter-pipe-test-2</tspan>
+<tspan x="10" y="5354">305.  2017-04-06 21:08:33 +0000      376 byte  test/pipe/package.json</tspan>
+<tspan x="10" y="5370">306.  2017-04-06 21:08:33 +0000      476 byte  test/plugin/esformatter-test-plugin.js</tspan>
+<tspan x="10" y="5386">307.  2017-04-06 21:08:33 +0000      267 byte  test/plugin/package.json</tspan>
+<tspan x="10" y="5402">308.  2017-04-06 21:08:33 +0000     8119 byte  test/plugins.spec.js</tspan>
+<tspan x="10" y="5418">309.  2017-04-06 21:08:33 +0000      254 byte  test/preset/fake1/esformatter-preset-fake-1.js</tspan>
+<tspan x="10" y="5434">310.  2017-04-06 21:08:33 +0000      334 byte  test/preset/fake1/package.json</tspan>
+<tspan x="10" y="5450">311.  2017-04-06 21:08:33 +0000      256 byte  test/preset/fake2/esformatter-preset-fake-2.js</tspan>
+<tspan x="10" y="5466">312.  2017-04-06 21:08:33 +0000      332 byte  test/preset/fake2/package.json</tspan>
+<tspan x="10" y="5482">313.  2017-04-06 21:08:33 +0000     1084 byte  test/runner.js</tspan>
+<tspan x="10" y="5498">314.  2017-04-06 21:08:33 +0000      862 byte  test/transform.spec.js</tspan>
 </text>
 </svg>
